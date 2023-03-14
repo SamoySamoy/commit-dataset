@@ -1,0 +1,14 @@
+id,sha,author_name,author_email,message,is_bot
+1,35ca49bb91c1e2db0d48e4964a1fa9d3f34ffa6c,SamoySamoy,antalois23@gmail.com,reset,False
+2,b4bb0babdc095da406c94fc5cdfe365212dd0505,SamoySamoy,antalois23@gmail.com,debug,False
+3,980199bfaf2e2a0f5c527ef1a359f21973cb7422,SamoySamoy,antalois23@gmail.com,add changes required for deployment to heroku,False
+4,0d55f49b8ed90ca8c990814fc4ab6a1e972d88a7,SamoySamoy,antalois23@gmail.com,modify readme,False
+5,991412450af7beaccb2aae175683a6fd225c6480,SamoySamoy,antalois23@gmail.com,complete project,False
+6,acc5d612b177f9133e3369f9b06aae577d35e162,SamoySamoy,antalois23@gmail.com,add update action for model,False
+7,5d3251d38e934699cd664154f4a02e85d757fd85,SamoySamoy,antalois23@gmail.com,add detail and delete routes,False
+8,7ed8ec7e9eee9bd3675a40cdb8563c81cbb9c2e7,SamoySamoy,antalois23@gmail.com,modify readme,False
+9,9852624deac4cf6b6b9aa28c89e47c702b6ca3bc,SamoySamoy,antalois23@gmail.com,add readme,False
+10,f66950bcc74a82a09408091b0f2003e3b53f73f2,SamoySamoy,antalois23@gmail.com,add readme,False
+11,55ed78264bfb97c96d255e2e5ab4c7bd12dda926,SamoySamoy,antalois23@gmail.com,render object list,False
+12,16ac899bcdb81931989302ca749112006f50602a,SamoySamoy,antalois23@gmail.com,add routes,False
+13,817556b1f69b9ce34e5d8000d83d042fd3fc0541,SamoySamoy,antalois23@gmail.com,initial commit,False
