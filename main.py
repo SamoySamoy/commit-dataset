@@ -3,12 +3,12 @@ import csv
 import re
 
 # Set up variables
-repo_owner = "SamoySamoy"
-repo_name = "simple-lib"
+repo_owner = "facebook"
+repo_name = "facebook-android-sdk"
 api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits"
 headers = {"Accept": "application/vnd.github.v3+json"}
 params = {"per_page": 100}  # Number of commits to fetch per page
-auth_token = "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"
+auth_token = "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"
 
 # Define bot-related keywords
 bot_names = ["bot", "build", "deploy", "jenkins", "travis", "circleci", "github", "gitlab"]
@@ -25,12 +25,13 @@ bot_patterns = [re.compile(r"\[skip ci\]", re.IGNORECASE),
                 re.compile(r"jenkinsfile", re.IGNORECASE),
                 re.compile(r"travis\.yml", re.IGNORECASE),
                 re.compile(r"circle\.yml", re.IGNORECASE),
-                re.compile(r"gitlab-ci\.yml", re.IGNORECASE),
-                re.compile(r"\b.*bot.*\b", re.IGNORECASE)]
+                re.compile(r"gitlab-ci\.yml", re.IGNORECASE)]
+ex_pattern = re.compile(r"\b.*bot.*\b", re.IGNORECASE)
 
 # Make API request to get commits
 response = requests.get(api_url, headers=headers, params=params, auth=(auth_token, ""))
 commits = response.json()
+print(commits)
 all_commits = []
 
 # Fetch all pages of commits
@@ -64,15 +65,15 @@ with open("dataset.csv", mode="w", newline="") as csv_file:
         # Check if commit is from a bot
         is_bot = False
         for bot_name in bot_names:
-            if bot_name.lower() in author_name.lower():
+            if bot_name.lower() in author_name.lower() or ex_pattern.search(author_name):
                 is_bot = True
                 break
         for bot_email in bot_emails:
-            if bot_email in author_email:
+            if bot_email in author_email or ex_pattern.search(author_email):
                 is_bot = True
                 break
         for pattern in bot_patterns:
-            if pattern.search(message) or pattern.search(author_email) or pattern.search(author_name):
+            if pattern.search(message):
                 is_bot = True
                 break
 
