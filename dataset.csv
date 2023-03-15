@@ -1,14 +1,336 @@
 id,sha,author_name,author_email,message,is_bot
-1,35ca49bb91c1e2db0d48e4964a1fa9d3f34ffa6c,SamoySamoy,antalois23@gmail.com,reset,False
-2,b4bb0babdc095da406c94fc5cdfe365212dd0505,SamoySamoy,antalois23@gmail.com,debug,False
-3,980199bfaf2e2a0f5c527ef1a359f21973cb7422,SamoySamoy,antalois23@gmail.com,add changes required for deployment to heroku,False
-4,0d55f49b8ed90ca8c990814fc4ab6a1e972d88a7,SamoySamoy,antalois23@gmail.com,modify readme,False
-5,991412450af7beaccb2aae175683a6fd225c6480,SamoySamoy,antalois23@gmail.com,complete project,False
-6,acc5d612b177f9133e3369f9b06aae577d35e162,SamoySamoy,antalois23@gmail.com,add update action for model,False
-7,5d3251d38e934699cd664154f4a02e85d757fd85,SamoySamoy,antalois23@gmail.com,add detail and delete routes,False
-8,7ed8ec7e9eee9bd3675a40cdb8563c81cbb9c2e7,SamoySamoy,antalois23@gmail.com,modify readme,False
-9,9852624deac4cf6b6b9aa28c89e47c702b6ca3bc,SamoySamoy,antalois23@gmail.com,add readme,False
-10,f66950bcc74a82a09408091b0f2003e3b53f73f2,SamoySamoy,antalois23@gmail.com,add readme,False
-11,55ed78264bfb97c96d255e2e5ab4c7bd12dda926,SamoySamoy,antalois23@gmail.com,render object list,False
-12,16ac899bcdb81931989302ca749112006f50602a,SamoySamoy,antalois23@gmail.com,add routes,False
-13,817556b1f69b9ce34e5d8000d83d042fd3fc0541,SamoySamoy,antalois23@gmail.com,initial commit,False
+1,c2c5f3d4caeeab0fbf4cfcb0b3497d4e91957ae4,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+2,13d0eb8f8ed166795b9913234a603e8c3a46987f,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.10,True
+3,5a54d125b6849295d53929c5e5bbf25e1d911082,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.10,True
+4,829ef04b6771c63d091559b2152e44090f18c043,Dan Webb,dan.webb@damacus.io,[skip ci] Fix yaml (#468),True
+5,c5f06b4b0c258d54e69e581ba1119c92c7e1b0a5,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+6,4b54962d38d32e79a419511ad9e12770804e0fa8,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.9,True
+7,7836708c1a7eb9fe7af67b37b688d4109bcfda18,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.9,True
+8,c0cedd28279873ba66fe54fad23f18a9246f2666,Dan Webb,dan.webb@damacus.io,[Skip CI] Update workflows (#467),True
+9,8a2494f34e3a8793e45d20460c07862ae1e9ee60,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+10,d174fab037943245555518ba7d71d7bd8b1c17b0,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.8,True
+11,5fa022d54f763a7b1f4099bc349a8213c92fcc4b,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.8,True
+12,29da0551b1c1d3f74465c7b2f62d8b1b52722830,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,"Standardise files with files in sous-chefs/repo-management (#462)
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>",True
+13,7a98020376b1e8558f04a04bf1801176d5a801de,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+14,fa93da1c1a3af0aefebbce3d4e668636773873c8,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.7,True
+15,58c5b37a826ca679cc42404a119eafd75f03fa3d,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.7,True
+16,571adcd9715863d42ab76d4478d078671a4bf8bf,aria1991,47612848+aria1991@users.noreply.github.com,"Update dynamodb_table_update_spec.rb (#456)
+
+I made some changes to the previous version of the script:
+
+— The test cases are now grouped under the describe block with a descriptive name, DynamoDB configuration.
+
+— The dynamodb object and the describe_table response are now created in a before(:all) block and are accessible in the individual test cases using instance variables, making the code more concise and readable.
+
+— The individual test cases have been given more descriptive names to clearly convey their purpose.
+
+— The find method has been used instead of index to check for the existence of an attribute or global secondary index, making the code more concise and readable
+
+— The not_to be_nil check has been used instead of to be to check for the existence of an attribute or global secondary index, making the code more idiomatic and readable",False
+17,8310677738b218d1147bed2d481d28ab541eab42,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+18,32a91aff03a7b292236352dfff28667466a46c02,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.6,True
+19,dd88f289f8fec8737aa70e3bd94e9255b5548d0b,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.6,True
+20,299434dc74313cf4407171b2423aa01cc8b6de99,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,"Automated PR: Standardising Files (#459)
+
+* Standardise files with files in sous-chefs/repo-management
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>
+
+* Standardise files with files in sous-chefs/repo-management
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>
+
+---------
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>",True
+21,eacd7f201e2464fd4f63574ebc6c94ab3192b157,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+22,556aa60835ca20b242d6101da969877b18e5eb6f,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.5,True
+23,d84f254f479e0ed50fcba9f6dd3cf60c0496b190,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.5,True
+24,7933a5f149295b5e2abc904161d3712856cef126,Dan Webb,dan.webb@damacus.io,"Remove CircleCI (#458)
+
+* Remove CircleCI
+
+* Remove Gemfile",False
+25,04c0bd7e419b3a73ddfb0643e89063d839f7a460,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+26,812841816e0bd79163e8069042f602f92323a9b6,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.4,True
+27,e0394b662ee39898ed86556224ba84679762e58e,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.4,True
+28,13d0384b21fa1922568cf1aa111ff2add18753e4,Spencer Comfort,109806759+GiddyGoatGaming@users.noreply.github.com,"ci: update to checkout v3 (#454)
+
+* ci: update to checkout v3
+
+Update checkout from v2 to v3
+
+* Update CHANGELOG.md
+
+* Switch to reusable workflow and fix mdl
+
+Signed-off-by: Lance Albertson <lance@osuosl.org>
+
+---------
+
+Signed-off-by: Lance Albertson <lance@osuosl.org>
+Co-authored-by: Lance Albertson <lance@osuosl.org>",False
+29,b83aadcf05cece87c940ef8fcee396877d5351be,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+30,ae09fc09fc1fb6a66711c19e49f6c940c5db64a5,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.3,True
+31,3badf2ad1c0a754be897e18a1b54826c7fd7d625,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.3,True
+32,18d81ae157c7865d448289531ee14c74de8dfc4f,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,"Automated PR: Standardising Files (#451)
+
+* Standardise files with files in sous-chefs/repo-management
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>
+
+* Standardise files with files in sous-chefs/repo-management
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>
+
+* Standardise files with files in sous-chefs/repo-management
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>",True
+33,53b731720c1ef0b7600c6c2a5bbf5cb2e007b510,Dan Webb,dan.webb@damacus.io,"Standardise files with files in sous-chefs/repo-management (#450)
+
+Signed-off-by: Dan Webb <dan.webb@damacus.io>",False
+34,9162e7f744272829f278b5b653227406d895b632,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+35,62d6f712f3b0d29b09e8fcd55c596cbc82cc1c3c,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.2,True
+36,c32f453db0cec040791b76c6076241cd8f3c75b2,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.2,True
+37,c6c35fa087b37ac5fd5c5175a29accd38f54e729,Brian Dwyer,2973273+bdwyertech@users.noreply.github.com,"Fix array length comparison (#445)
+
+Signed-off-by: Brian Dwyer <brian.dwyer@broadridge.com>",False
+38,be61ac22d8fc2f69aa917b1815fd76b3283f3ab3,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+39,433ba023bb57ba0788cb46a2ed268b3c0c57cf88,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.1,True
+40,67dbb2973e66df835e1164651e11ad86513c18de,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.1,True
+41,83256886b6a95a03478f41cc8cbe66f38e8dd30c,Alex Hughes,ahughesalex@gmail.com,"Add support for `fallback_region` in local zones (#443)
+
+* Add support for `fallback_region` in local zones
+
+There is an issue currently when chopping off the AZ marker when in a local zone.
+
+In the LAX localzone, your AZ is `us-west-2-lax-1a` instead of `us-west-2a` and post chop, it attempts to communicate with `<service>.us-west-2-lax-1.amazonaws.com` and fails.
+
+* Describe summary of changes in CHANGELOG
+
+Write a summary of the changes to `fallback_region` in the CHANGELOG under ## Unreleased",False
+42,9e2308e978f49a5b16bf6cdf6c64ac4d55a3b6b9,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+43,daef9ba81389c8fa28d65591271b2e1cf4372680,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 9.0.0,True
+44,7bb6a5dab5b8da834c7a1587814f6eac147de358,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 9.0.0,True
+45,d77ba03cc0730072726c987f4619ce2c0343213d,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,"Automated PR: Cookstyle Changes (#442)
+
+* Cookstyle 7.22.3 Fixes
+
+Issues found and resolved with: resources/route53_record.rb
+
+ - 1:1 refactor: Chef/Deprecations/ResourceWithoutUnifiedTrue - Set unified_mode true in Chef Infra Client 15.3+ custom resources to ensure they work correctly in Chef Infra Client 18 April 2022 when Unified Mode becomes the default. https://docs.chef.io/workstation/cookstyle/chef_deprecations_resourcewithoutunifiedtrue
+
+Issues found and resolved with: resources/security_group.rb
+
+ - 1:1 refactor: Chef/Deprecations/ResourceWithoutUnifiedTrue - Set unified_mode true in Chef Infra Client 15.3+ custom resources to ensure they work correctly in Chef Infra Client 18 April 2022 when Unified Mode becomes the default. https://docs.chef.io/workstation/cookstyle/chef_deprecations_resourcewithoutunifiedtrue
+
+Issues found and resolved with: resources/ssm_parameter_store.rb
+
+ - 1:1 refactor: Chef/Deprecations/ResourceWithoutUnifiedTrue - Set unified_mode true in Chef Infra Client 15.3+ custom resources to ensure they work correctly in Chef Infra Client 18 April 2022 when Unified Mode becomes the default. https://docs.chef.io/workstation/cookstyle/chef_deprecations_resourcewithoutunifiedtrue
+
+Issues found and resolved with: test/fixtures/cookbooks/aws_test/recipes/ssm_parameter_store.rb
+
+ - 93:7 convention: Layout/LeadingCommentSpace - Missing space after . https://rubystyle.guidehash-space
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>
+
+* Require Chef 15.3 for unified_mode
+
+Signed-off-by: Dan Webb <dan.webb@damacus.io>
+
+* Chef 17 fixes
+
+Co-authored-by: Dan Webb <dan.webb@damacus.io>
+Co-authored-by: Mendy Baitelman <mendyb@prodege.com>",True
+46,ad0afde82fca12dc1ce1f5af5ad7944a0b5a9ce9,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+47,92e706fad1dd76cd8428c743fa34e3fd732fa893,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 8.4.1,True
+48,5d765c263c1f1f63be26a29003aebf054a96197c,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 8.4.1,True
+49,eb5e16761312a8dfeb5032cd6745b86f87576c81,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,"Standardise files with files in sous-chefs/repo-management (#440)
+
+Signed-off-by: kitchen-porter <board@sous-chefs.org>",True
+50,40ac4830fda3b7e76fd5d9cf2e37880d30240576,Jason Field,jason@avon-lea.co.uk,prep for main,False
+51,cdc796e90161e362f736d1dc14033af173ff8acb,Xorima's Bot,xorimabot@avon-lea.co.uk,"Standardise files with files in sous-chefs/repo-management (#436)
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+52,f3f4d7ab62fe0cecfea04555009ef21da418c432,Lance Albertson,lance@osuosl.org,"Merge pull request #435 from sous-chefs/automated/standardfiles
+
+Automated PR: Standardising Files",False
+53,b5b93a2e2bb69b9d96a64fd0adfbdfdfb0a86bed,Xorima Bot,xorimabot@avon-lea.co.uk,"Standardise files with files in sous-chefs/repo-management
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+54,15103c5a13d5185faf5dd6ec1ca7fe94c08ca8cf,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Set Changelog to ## Unreleased,True
+55,fb18c3757d4354269026d3d611efa2ba553e6f7f,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update metadata for 8.4.0,True
+56,3d69a50418de18e117244c92372bff9a5ca7f32f,Sous Chefs Bot,33356041+kitchen-porter@users.noreply.github.com,Update changelog for 8.4.0,True
+57,8eb571bc329aaee6deaab860b5093afbd17dee29,Lance Albertson,lance@osuosl.org,"Merge pull request #430 from sous-chefs/sous-chefs-adoption
+
+Sous Chefs Adoption",False
+58,3a4fef2d3398892d37fed69ac40d63ad4fb26bd6,Lance Albertson,lance@osuosl.org,"Sous Chefs Adoption
+
+- Standardise files with files in sous-chefs/repo-management
+- Cookstyle fixes
+- feat(volume-type): add gp3 and io2 volume types to allowed types
+- fix(ebs): update the ec2 gem and correct array membership test
+- Update aws-sdk-kms to latest
+
+Signed-off-by: Lance Albertson <lance@osuosl.org>",False
+59,247adb4efdcc7f277a6830ae7344d663d84268f2,Lance Albertson,lance@osuosl.org,"Merge pull request #428 from sous-chefs/automated/standardfiles
+
+Automated PR: Standardising Files",False
+60,4196cafcbc0fb7654f44cdecd3f2bd21fe0b8847,Xorima Bot,xorimabot@avon-lea.co.uk,"Standardise files with files in sous-chefs/repo-management
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+61,9f5aa593889e753e8f261e44bf36be450da21c45,Tim Smith,tsmith@chef.io,"Merge pull request #427 from chef-cookbooks/cookstyle_bot/cookstyle_7_5_2
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+62,21f907848b74d5ae7d8056fe5ef74eb8507a1718,Cookstyle Bot,cookbooks@chef.io,"Cookstyle Bot Auto Corrections with Cookstyle 7.5.2
+This change is automatically generated by the Cookstyle Bot using the latest version of Cookstyle (7.5.2). Adopting changes suggested by Cookstyle improves cookbook readability, avoids common coding mistakes, and eases upgrades to newer versions of the Chef Infra Client.
+
+Signed-off-by: Cookstyle <cookbooks@chef.io>",True
+63,67d961ac1ac0a984b3cecc0ae3ed7fcb1bbcd209,Tim Smith,tsmith@chef.io,"Merge pull request #426 from arothian/update_kms
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+64,fdcfdf3e9f5f3fe55853afc4c8c43a2b35db0321,Kevin Formsma,kevin.formsma@gmail.com,"Update aws-sdk-kms to latest
+
+Signed-off-by: Kevin Formsma <kevin.formsma@gmail.com>",False
+65,ac8416866a7373641035381fae11250043d9adf1,Tim Smith,tsmith@chef.io,"Merge pull request #425 from chrisminton/fix/gp3-additions
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+66,834ca100ac3d0b5bcec91c53b4eefd0cd55e12ae,Chris Minton,christopher.minton@sainsburys.co.uk,"fix(ebs): update the ec2 gem and correct array membership test
+
+- volume_type checks need to use the right array test
+- aws-sdk-ec2 gem needs to be updated to recognise the latest gp3/io2
+  addtions
+
+Signed-off-by: Chris Minton <christopher.minton@sainsburys.co.uk>",False
+67,2840a979508a3134d407100f78eb36b6d8fdf2de,Tim Smith,tsmith@chef.io,"Merge pull request #424 from chrisminton/feat-add-gp3
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+68,f5c94b303ebac680519f5d99b5618a36e18a4fd8,Chris Minton,christopher.minton@sainsburys.co.uk,"feat(volume-type): add gp3 and io2 volume types to allowed types
+
+- io2 and gp3 are the latest generation IOPS and general purpose SSD volumes, allow them to be managed
+Signed-off-by: Chris Minton <christopher.minton@sainsburys.co.uk>",False
+69,d9bc975055c0d717e67083a31f4cd1fecd83df58,Tim Smith,tsmith84@gmail.com,"Release 8.3.1
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+70,4c7e01332297aae82307220e2c19df0a9160264d,Tim Smith,tsmith84@gmail.com,"Update the github action
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+71,257eaffb6f438fc8f2e1905306b556984390e971,Tim Smith,tsmith@chef.io,"Merge pull request #423 from arothian/patch-1
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+72,ae36b0aa053117c10e8e8b3130cd9874b63cff30,Kevin Formsma,kevin.formsma@gmail.com,"Update AWS S3 gem dependency
+
+Updates `aws-sdk-s3` to a version that supports the latest changes to the S3 encryption client (https://docs.aws.amazon.com/sdk-for-ruby/v3/developer-guide/s3-encryption-migration.html)
+
+Signed-off-by: Kevin Formsma <kevin.formsma@gmail.com>",True
+73,d2e30209b6891ba23bc34eeb981dfbf98d5c7bdf,Tim Smith,tsmith@chef.io,"Merge pull request #422 from chef-cookbooks/cookstyle_bot/cookstyle_7_3_10
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+74,ad7f8610d616a1b61e0ddff5f222871e311991ef,Cookstyle Bot,cookbooks@chef.io,"Cookstyle Bot Auto Corrections with Cookstyle 7.3.10
+This change is automatically generated by the Cookstyle Bot using the latest version of Cookstyle (7.3.10). Adopting changes suggested by Cookstyle improves cookbook readability, avoids common coding mistakes, and eases upgrades to newer versions of the Chef Infra Client.
+
+### Lint/ParenthesesAsGroupedExpression
+  - **/test/fixtures/cookbooks/aws_test/recipes/dynamodb_table.rb:51**: `(...)` interpreted as grouped expression.
+  - **/test/fixtures/cookbooks/aws_test/recipes/dynamodb_table.rb:55**: `(...)` interpreted as grouped expression.
+  - **/test/fixtures/cookbooks/aws_test/recipes/dynamodb_table.rb:113**: `(...)` interpreted as grouped expression.
+  - **/test/fixtures/cookbooks/aws_test/recipes/dynamodb_table.rb:117**: `(...)` interpreted as grouped expression.
+
+Signed-off-by: Cookstyle <cookbooks@chef.io>",True
+75,d556fde12718f61fa1f8d7b59991354e966da487,Tim Smith,tsmith@chef.io,"Merge pull request #418 from chef-cookbooks/cookstyle_bot/cookstyle_6_18_8
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+76,5864a2f0c2d45b474b71768c09bdc4a548c8db0f,Cookstyle Bot,cookbooks@chef.io,"Cookstyle Bot Auto Corrections with Cookstyle 6.18.8
+This change is automatically generated by the Cookstyle Bot using the latest version of Cookstyle (6.18.8). Adopting changes suggested by Cookstyle improves cookbook readability, avoids common coding mistakes, and eases upgrades to newer versions of the Chef Infra Client.
+
+### Style/ReturnNil
+  - **/resources/security_group.rb:251**: Use `return` instead of `return nil`.
+
+### Style/Encoding
+  - **/test/fixtures/cookbooks/aws_test/recipes/ssm_parameter_store.rb:1**: Unnecessary utf-8 encoding comment.
+
+Signed-off-by: Cookstyle <cookbooks@chef.io>",True
+77,b38b2164a7167210a3137e952cbc0450c5cb4eb0,Tim Smith,tsmith@chef.io,"Merge pull request #417 from chef-cookbooks/automated/standardfiles
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+78,5cabaa8ed37bde1dcb2c7762454183afea29a4eb,Xorima Bot,xorimabot@avon-lea.co.uk,"Standardise files with files in chef-cookbooks/repo-management
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+79,a12f77893f65cf5063f0c30b1be632db96c92a67,Tim Smith,tsmith84@gmail.com,"Release 8.3.0
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+80,1640574b4956f3abdf8fc359815c42f4191a9989,Tim Smith,tsmith84@gmail.com,"Avoid assigning a value only to return it
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+81,f4d1fb60278c2127e9634164bd74ce7db233717d,Tim Smith,tsmith@chef.io,"Merge pull request #411 from chef-cookbooks/automated/standardfiles
+
+Automated PR: Standardising Files",False
+82,1f4f70f78b76ee683bef77839b5e253b3fd8bd56,Tim Smith,tsmith@chef.io,"Merge pull request #415 from PagerDuty/resource-overload-r53
+
+Avoid resource overloading for aws_route53_record",False
+83,01d8aad902bf35bc79dd798ac2c1882df4259b17,Chakri Dewaragatla,cdewaragatla@pagerduty.com,"Avoid resource overloading for aws_route53_record
+
+Bug fixes that change default return values or error codes stored in constants
+
+Signed-off-by: Chakri Dewaragatla <cdewaragatla@pagerduty.com>",False
+84,c187d0a8c1e6f188e2f06b1aa089e19ac1170c9e,Xorima Bot,xorimabot@avon-lea.co.uk,"Standardise files with files in chef-cookbooks/repo-management
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+85,ca44e2efc42ab8cb0b0ab4a76c683c6e44450654,Xorima Bot,xorimabot@avon-lea.co.uk,"Standardise files with files in chef-cookbooks/repo-management
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+86,aaac64ce4c34f85278ca970691d2ffdc2a27e639,Tim Smith,tsmith84@gmail.com,"Ensure we have resource_name in addition to provides in resources
+
+This way we're fully compatible with Chef Infra Client < 16
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+87,0787e299905c4ebb4db1a6664d84c94c994f9bb9,Tim Smith,tsmith@chef.io,"Merge pull request #409 from chef-cookbooks/automated/standardfiles
+
+Automated PR: Standardising Files",False
+88,a0a6b29589b65863b9bc551a3444640e58617391,Xorima Bot,xorimabot@avon-lea.co.uk,"Standardise files with files in chef-cookbooks/repo-management
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+89,67eab9971baaf945cc0d5495993d31a10637e060,Tim Smith,tsmith@chef.io,"Merge pull request #408 from chef-cookbooks/automated/standardfiles
+
+Automated PR: Standardising Files",False
+90,a84b903bcbf9c2429d5e34d544d6c08e506d7849,Xorima Bot,xorimabot@avon-lea.co.uk,"Standardise files with files in chef-cookbooks/repo-management
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+91,434043d7a2bde776c1ce67e14858e33277436076,Tim Smith,tsmith84@gmail.com,Use the org wide GitHub templates,False
+92,51ae9d4fca28856a7bab0006b2a61c625edafbd8,Tim Smith,tsmith@chef.io,"Merge pull request #407 from chef-cookbooks/automated/standardfiles
+
+Automated PR: Standardising Files",False
+93,0bf72143a1cc4177ff7a07feeafe6c8ac4cae106,Xorima Bot,xorimabot@avon-lea.co.uk,"Standardise files with files in chef-cookbooks/repo-management
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+94,2b301899591209f76504265b30547af04095c845,Xorima Bot,xorimabot@avon-lea.co.uk,Standardise files with files in chef-cookbooks/repo-management,True
+95,4aa170d81d11f0730b95c9c5aa5960c2cfc69665,Tim Smith,tsmith@chef.io,"Merge pull request #405 from chef-cookbooks/automated/cookstyle
+
+Automated PR: Cookstyle Changes",False
+96,019517eb7db6fd3ba7c40e88b231169e630800dd,Xorima Bot,xorimabot@avon-lea.co.uk,"Cookstyle 6.2.9 Fixes
+
+Issues found and resolved with: resources/resource_tag.rb
+
+ - 48:21 convention: Style/HashEachMethods - Use `each_key` instead of `keys.each`.
+ - 62:21 convention: Style/HashEachMethods - Use `each_key` instead of `keys.each`.
+
+Signed-off-by: Xorima Bot <xorimabot@avon-lea.co.uk>",True
+97,97614e0979aabf77f1479b4ddf15d2138c9a24f0,Tim Smith,tsmith84@gmail.com,"Release 8.2.0
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+98,e09c8209f14591e52ef858980e070b7286cebd79,Tim Smith,tsmith@chef.io,"Merge pull request #400 from PagerDuty/only_ignore_aws_colon_tags
+
+Ignore tags with prefix aws: instead of aws",False
+99,75846018b01e1c39c98629fc21cb2623defae714,Tim Smith,tsmith84@gmail.com,"Require Chef 12.15+
+
+This gives us modern metadata processing
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False
+100,88370fc96ac1b600d78ca00f78ca4bd56ae7e696,Tim Smith,tsmith84@gmail.com,"Add Github actions testing of style/unit
+
+This is in addition to travis
+
+Signed-off-by: Tim Smith <tsmith@chef.io>",False

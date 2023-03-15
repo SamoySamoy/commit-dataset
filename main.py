@@ -1,14 +1,13 @@
 import requests
 import csv
 import re
-
 # Set up variables
-repo_owner = "facebook"
-repo_name = "facebook-android-sdk"
+repo_owner = "sous-chefs"
+repo_name = "aws"
 api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits"
 headers = {"Accept": "application/vnd.github.v3+json"}
 params = {"per_page": 100}  # Number of commits to fetch per page
-auth_token = "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"
+auth_token = "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"
 
 # Define bot-related keywords
 bot_names = ["bot", "build", "deploy", "jenkins", "travis", "circleci", "github", "gitlab"]
@@ -22,31 +21,32 @@ bot_patterns = [re.compile(r"\[skip ci\]", re.IGNORECASE),
                 re.compile(r"test\s+automation", re.IGNORECASE),
                 re.compile(r"ci/cd", re.IGNORECASE),
                 re.compile(r"pipeline", re.IGNORECASE),
+                re.compile(r"dependenc", re.IGNORECASE),
                 re.compile(r"jenkinsfile", re.IGNORECASE),
                 re.compile(r"travis\.yml", re.IGNORECASE),
                 re.compile(r"circle\.yml", re.IGNORECASE),
+                re.compile(r"bump", re.IGNORECASE),
                 re.compile(r"gitlab-ci\.yml", re.IGNORECASE)]
 ex_pattern = re.compile(r"\b.*bot.*\b", re.IGNORECASE)
 
 # Make API request to get commits
 response = requests.get(api_url, headers=headers, params=params, auth=(auth_token, ""))
 commits = response.json()
-print(commits)
 all_commits = []
-
-# Fetch all pages of commits
-while response.status_code == 200:
-    all_commits.extend(commits)
-    link_header = response.headers.get("Link")
-    if link_header is None:
-        break
-    links = link_header.split(",")
-    for link in links:
-        if "rel=\"next\"" in link:
-            next_url = link.split(";")[0].strip("<>")
-            response = requests.get(next_url, headers=headers, params=params, auth=(auth_token, ""))
-            commits = response.json()
-            break
+count = 0
+# # Fetch all pages of commits
+# while response.status_code == 200:
+#     all_commits.extend(commits)
+#     link_header = response.headers.get("Link")
+#     if link_header is None:
+#         break
+#     links = link_header.split(",")
+#     for link in links:
+#         if "rel=\"next\"" in link:
+#             next_url = link.split(";")[0].strip("<>")
+#             response = requests.get(next_url, headers=headers, params=params, auth=(auth_token, ""))
+#             commits = response.json()
+#             break
 
 # Extract commit details and save them in CSV file
 with open("dataset.csv", mode="w", newline="") as csv_file:
@@ -55,7 +55,7 @@ with open("dataset.csv", mode="w", newline="") as csv_file:
 
     writer.writeheader()
     id = 0
-    for commit in all_commits:
+    for commit in commits:
         id += 1
         sha = commit["sha"]
         author_name = commit["commit"]["author"]["name"]
@@ -76,5 +76,5 @@ with open("dataset.csv", mode="w", newline="") as csv_file:
             if pattern.search(message):
                 is_bot = True
                 break
-
         writer.writerow({"id": id, "sha": sha, "author_name": author_name, "author_email": author_email, "message": message, "is_bot": is_bot})
+
