@@ -9,8 +9,8 @@ def crawl_commits(repo_owner, repo_name):
     repo_name = repo_name
     api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits"
     headers = {"Accept": "application/vnd.github.v3+json"}
-    params = {"per_page": 100}  # Number of commits to fetch per page
-    auth_token = "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"
+    params = {"per_page": 30}  # Number of commits to fetch per page
+    auth_token = "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"
 
     # Make API request to get commits
     response = requests.get(api_url, headers=headers, params=params, auth=(auth_token, ""))
@@ -34,15 +34,14 @@ def crawl_commits(repo_owner, repo_name):
 
     return commits
 
-def expand_dataset(commits):
+def expand_dataset(commits, file):
     # find the current id (number of rows)
-    with open("dataset.csv", mode="r", newline="") as csv_file:
+    with open(file, mode="r", newline="") as csv_file:
         reader = csv.reader(csv_file)
         cur_id = sum(1 for row in reader) - 1
 
-
     # add new data to dataset
-    with open("dataset.csv", mode="a", newline="") as csv_file:
+    with open(file, mode="a", newline="") as csv_file:
         writer = csv.writer(csv_file)
         id = cur_id
         for commit in commits:
@@ -57,21 +56,20 @@ def expand_dataset(commits):
             is_important = 1
             for bot_name in bot_names_pattern:
                 if bot_name.lower() in author_name.lower() or ex_pattern.search(author_name):
-                    is_important = 0.5
+                    is_important = 0.7
                     break
             for bot_email in bot_emails_pattern:
                 if bot_email in author_email or ex_pattern.search(author_email):
-                    is_important = 0.5
+                    is_important = 0.7
                     break
             for pattern in bot_message_patterns:
                 if pattern.search(message):
-                    is_important = 0.5
+                    is_important = 0.7
                     break
 
             new_row = [id, sha, author_name, author_email, message, is_important, summa]
             writer.writerow([])
             writer.writerow(new_row)
-
 
 
 

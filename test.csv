@@ -1,0 +1,986 @@
+
+
+1,c83e8b4558a85646390e85bc559a1f86ef73024d,Caroline Li,carolineli@fb.com,"Bump version to 16.0
+
+Summary: as title
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D43169515
+
+fbshipit-source-id: f7c1a4ad514828c8927b31d0c73e9859f51cbffc",0.5,None
+
+2,3dee8f7b1296097554b175bfa0d1dcecf2f2928f,Sachin Tyagi,tyagisachin@fb.com,"Supporting meta.com also for crash report part 2
+
+Summary: I previous screen, I missed the lint error.
+
+Reviewed By: OmarB97
+
+Differential Revision: D41810759
+
+fbshipit-source-id: 2209fa443e28421f65ad94d897de869a3ceedca5",0.5,None
+
+3,20dda4aa171884a4ce9c1d638b2bdd1484e9eb9b,Ming Zhang,mingcaozhang@fb.com,"Bump version 15.2.0
+
+Summary: $title
+
+Reviewed By: samodom
+
+Differential Revision: D41968322
+
+fbshipit-source-id: 67508895dfa33197418ad38ea9135c68f46503a8",0.5,None
+
+4,3757791c6739062860eadb094b5a34c1caa112f7,Ming Zhang,mingcaozhang@fb.com,"Revert ""Bump minSdkVersion to 21""
+
+Summary: This reverts commit b0200a21
+
+Reviewed By: joesus
+
+Differential Revision: D41882076
+
+fbshipit-source-id: 00fd1293badc182f0b050a62948c425b2978932e",0.5,None
+
+5,21432e69fa1fe084a79a97fa7946cfa711ed8084,Sachin Tyagi,tyagisachin@fb.com,"Supporting meta.com also for crash report
+
+Summary: Supporting meta.com as it is supporting only com.facebook right now
+
+Reviewed By: OmarB97, KylinChang
+
+Differential Revision: D41800310
+
+fbshipit-source-id: f699082ee9c27c64e4511007f03406d763317507",0.5,None
+
+6,348cd52d2b3df5406c60a7fd88fbcaabc46b1d3b,Jawwad Ahmad,jawwad@fb.com,"Convert MessengerUtils and MessengerUtilsTest to Kotlin
+
+Summary: Converting classes `MessengerUtils` and `MessengerUtilsTest` in scope of the effort of migrating the codebase to Kotlin.
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D41135506
+
+fbshipit-source-id: 9e60bd268540fa833456b64c3e775bab60de24d8",0.5,None
+
+7,5b004244b985298624cf950efaa3909490796d01,Joe Susnick,joesusnick@fb.com,"Fix device dialog layout
+
+Summary: The fragment had the device layout hardcoded to 600dp which probably makes some kind of sense if you assume it’s running on a tv or tablet (although even then it may be way too small depending on the screen size). Better to just have it match the bounds of the parent view with a few dps of padding.
+
+Reviewed By: jawwad
+
+Differential Revision: D41270275
+
+fbshipit-source-id: c88133c1ff02e56a9294a1f81b304b789b6b538f",0.5,None
+
+8,94f04c7dbd0dc4c34efa3f1cd75be26e428468b3,Saranya Vidyananthan,saranyavidy@fb.com,"Add Features to Feature Manager
+
+Reviewed By: OmarB97
+
+Differential Revision: D41136067
+
+fbshipit-source-id: 2737e2d71c91d2f0d2099b6aaacbe275f9803974",0.5,None
+
+9,e4659515547b9709bd08cc387838b92147291e3a,Mercy Bickell,mercycat@fb.com,"Convert Messenger.java to Kotlin
+
+Summary: Convert `Messenger.java` to Kotlin as part of the efforts to convert the Facebook Android SDK to Kotlin
+
+Reviewed By: jawwad
+
+Differential Revision: D41146727
+
+fbshipit-source-id: 38bc8d64254b34229c84a4e61a9ac70bd013be43",0.5,None
+
+10,7f3d2770727491b01cc66da3d3edc6ac9f664e1c,Alex Chychkan,chychkan@fb.com,"Convert MockitoConfiguration.java to Kotlin
+
+Summary: Converting class MockitoConfiguration in scope of the effort of migrating the codebase to Kotlin.
+
+Reviewed By: jawwad
+
+Differential Revision: D41130027
+
+fbshipit-source-id: aa30c8bc18566f44661e02a9bafde9895ed54169",0.5,None
+
+11,5fc000c7516a25b1649aff10c414824939ae07a3,Mercy Bickell,mercycat@fb.com,"Convert ShareToMessengerParams.java to Kotlin
+
+Summary:
+Convert file to Kotlin as part of ongoing Facebook Android SDK Kotlin conversion efforts.
+- Note that as in D40957237 (https://github.com/facebook/facebook-android-sdk/commit/72e7c478e96f2e57a2ff5dab34949c29b0f91c9d), some instance variables now have to be accessed with getters. Updated the changelog accordingly.
+
+Reviewed By: jawwad
+
+Differential Revision: D41136500
+
+fbshipit-source-id: a00d09888d4ffae6653db4e8d9568dcfe51ebc87",0.5,None
+
+12,8b1daabb4796b018d16e2fc07143a39a7b0a2aef,Alex Chychkan,chychkan@fb.com,"Convert DeviceLoginManager.java to Kotlin
+
+Summary:
+Converting `DeviceLoginManager` class in scope the effort of migrating the codebase from Java to Kotlin.
+
+The `DeviceLoginManager` is the last Java file in the `facebook-login` module, so this DIFF concludes the migration for the module.
+
+Reviewed By: bnalls33
+
+Differential Revision: D41102653
+
+fbshipit-source-id: b5bcbec3a55a7400ca8f90c7ec47237d15a7f67f",0.5,None
+
+13,5a2a7db0098c1f6adbb716752b0587fe1ee019e1,Alex Chychkan,chychkan@fb.com,"Fix formatting in ProfilePictureView, ToolTipPopup and MessengerThreadParams
+
+Summary: In D40993406 (https://github.com/facebook/facebook-android-sdk/commit/79b6f95018e7e2dfeab1a11bf05589e7d4027e66), D40967446 (https://github.com/facebook/facebook-android-sdk/commit/f80c1b76dcc7c184469266c1e84de748b01391c0) and D40957237 (https://github.com/facebook/facebook-android-sdk/commit/72e7c478e96f2e57a2ff5dab34949c29b0f91c9d) I converted these classes from Java to Kotlin, but I didn't realize that formatting settings in my IDE were different from the rest of the codebase. As a result all the indentations in these files are messed up. Fixing them here after installing `ktfmt` plugin and re-formatting the files.
+
+Reviewed By: jawwad
+
+Differential Revision: D41087858
+
+fbshipit-source-id: 510f1ba319663a29f2b982ba8accf051ad639703",0.5,None
+
+14,0e71c90bc2fd3c10d5625cc1e65627255b2c0e39,Alex Chychkan,chychkan@fb.com,"Convert LoginButton.java and DeviceLoginButton.java to Kotlin
+
+Summary:
+Converting the files in scope of the effort migrating the codebase from Java to Kotlin.
+Converting both files in the same commit as `DeviceLoginButton` extends `LoginButton` and is a small and simple class.
+
+Also, I realized that my IDE was configured to use 4 spaces indentation and all existing files use 2 spaces, so I'm also re-formatting the files that I changed in my recent commits.
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D41032469
+
+fbshipit-source-id: f7e4fa85497559933b36c6b1bce03b9429a15dad",0.5,None
+
+15,79b6f95018e7e2dfeab1a11bf05589e7d4027e66,Alex Chychkan,chychkan@fb.com,"Convert ProfilePictureView.java to Kotlin
+
+Summary: Converting the file in scope of the effort of migrating the codebase from Java to Kotlin.
+
+Reviewed By: jawwad
+
+Differential Revision: D40993406
+
+fbshipit-source-id: 57a2a42292e2f74682b95f835885f1561c7edfa5",0.5,None
+
+16,f80c1b76dcc7c184469266c1e84de748b01391c0,Alex Chychkan,chychkan@fb.com,"Convert ToolTipPopup.java to Kotlin
+
+Summary: Converting the file `ToolTipPopup.java` to Kotlin in scope of the effort to migrate the codebase from Java to Kotlin.
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40967446
+
+fbshipit-source-id: 6cfa43c7c1d500d925198f06eb659e2c2c4bba39",0.5,None
+
+17,930e16809e455e7ea333505114e39475d9098860,Jawwad Ahmad,jawwad@fb.com,"Remove the deprecated WEB_VIEW_ONLY login behavior since it no longer works
+
+Summary:
+The `WEB_VIEW_ONLY` setting does not work and according to this article stopped working sometime last year
+https://developers.facebook.com/blog/post/2021/06/28/deprecating-support-fb-login-authentication-android-embedded-browsers/
+
+Reviewed By: joesus
+
+Differential Revision: D40963098
+
+fbshipit-source-id: cf1ba3ec8465dcfeb722a2209a57991fb80711d4",0.5,None
+
+18,f477002b48424276130bcf6ad9d8fe808c865c2c,Jawwad Ahmad,jawwad@fb.com,"Disable test causing frequent failures on GitHub Actions
+
+Summary:
+On GitHub this test fails more often than it passes. Checked 3 previous failures and all had the same failure.
+
+```
+com.facebook.internal.ImageDownloaderTest > test remove before and after test adding request FAILED
+    java.lang.AssertionError: expected:<1> but was:<0>
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.failNotEquals(Assert.java:835)
+        at org.junit.Assert.assertEquals(Assert.java:120)
+        at org.junit.Assert.assertEquals(Assert.java:146)
+        at com.facebook.internal.ImageDownloaderTest.test remove before and after test adding request(ImageDownloaderTest.kt:76)
+```
+
+Reviewed By: joesus
+
+Differential Revision: D40966876
+
+fbshipit-source-id: c57eda4c4740dd62b342981807837e9898bba1aa",0.5,None
+
+19,72e7c478e96f2e57a2ff5dab34949c29b0f91c9d,Alex Chychkan,chychkan@fb.com,"Convert MessengerThreadParams.java to Kotlin
+
+Summary: Converting the file `MessengerThreadParams.java` to Kotlin in scope of the effort to migrate the codebase from Java to Kotlin.
+
+Reviewed By: jawwad
+
+Differential Revision: D40957237
+
+fbshipit-source-id: 70c376e1fb04aa380287ce85ab1486b671eb4a94",0.5,None
+
+20,94a8ffb2383d84fc19f22cfd1080d0eac9900db6,Ming Zhang,mingcaozhang@fb.com,"Bump minSdkVersion to 21
+
+Summary: Raises the minimum API level to 21
+
+Reviewed By: samodom
+
+Differential Revision: D40643988
+
+fbshipit-source-id: b0200a210ff9687747ddb2367b99f1348b0448fa",0.5,None
+
+21,0fd37061dc57a99e790df420cafb949c5c20f321,Ming Zhang,mingcaozhang@fb.com,"Bump version to 15.1.0
+
+Summary: $title
+
+Reviewed By: samodom
+
+Differential Revision: D40643885
+
+fbshipit-source-id: 33d5b66cc82a7210329585eedcf2b168243a1e0b",0.5,None
+
+22,9060fae3109df64b53dc6b5ae4d3ac222cecdcde,Ming Zhang,mingcaozhang@fb.com,"Revert ""Bump minSdkVersion to 21""
+
+Summary: This reverts commit 0f133eaebac06959b1efb4a861415f5812af387a.
+
+Reviewed By: samodom
+
+Differential Revision: D40643887
+
+fbshipit-source-id: 348fa99ca10360df4f301431bf6542ecd37ed7d0",0.5,None
+
+23,c1bac00a84d9681f965dc6d4482a899f09d01951,Jared Warren,jarwarren@fb.com,"Bump minSdkVersion to 21
+
+Summary: Raises the minimum API level to 21
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40319534
+
+fbshipit-source-id: 0f133eaebac06959b1efb4a861415f5812af387a",0.5,None
+
+24,4f10df4015e3d151617786382230044c6c5539d3,Ming Zhang,mingcaozhang@fb.com,"Migrate GamingMediaUploader to Kotlin
+
+Summary: $title
+
+Reviewed By: jawwad
+
+Differential Revision: D40118962
+
+fbshipit-source-id: 15bea7d905a84f2fe4c6809d267d7c0eabf161ec",0.5,None
+
+25,d043bf6f1a50ea8c50a01e0f6ebdb86e5a5b6db6,Parth Menon,parthmenon@fb.com,"Convert HelloFacebookBroadcastReceiver.java to Kotlin
+
+Differential Revision: D40548641
+
+fbshipit-source-id: 82dadb6bfeff4aa4f03acbb7f9913be30a2a5325",0.5,None
+
+26,4283d21776197ce2d1da3f0fc3265c214cd2f485,Saranya Vidyananthan,saranyavidy@fb.com,"Updating Feature Manager
+
+Reviewed By: OmarB97
+
+Differential Revision: D40529326
+
+fbshipit-source-id: 8f83da9fbc70b0383a52b7fef5b994ff6b73d5db",0.5,None
+
+27,4a5bfcea2c332c1a850b9396754fe32227bfdcda,Saranya Vidyananthan,saranyavidy@fb.com,"Adding Meta IAP and Meta Payments Features
+
+Reviewed By: OmarB97
+
+Differential Revision: D40512271
+
+fbshipit-source-id: 03d8b5dc1a7c470aa2da770e0dbf40a9e8a8ca8d",0.5,None
+
+28,38840714d787d08ae111f6b1ccd3104f4d63f7bb,Ming Zhang,mingcaozhang@fb.com,"Bump version to 15.0.2
+
+Summary: $title
+
+Reviewed By: samodom
+
+Differential Revision: D40492222
+
+fbshipit-source-id: 8465c068a3f5a2ade446de5147a41a8db681c66d",0.5,None
+
+29,fc2a16b8998ed03a925b1190c99cfa8f01efd91e,Ming Zhang,mingcaozhang@fb.com,"Hotfix test dependencies being marked as implementation
+
+Summary: Somehow this unintended change slipped through. Explains why some 3P devs are reporting that their APK size has increased by a lot.
+
+Reviewed By: samodom
+
+Differential Revision: D40491409
+
+fbshipit-source-id: c9d24fcf55dabb16f1ce2fd5156fd7e086a2473c",0.5,None
+
+30,40edc9fee218d0addf4fd76e72d08a4651311a65,Jawwad Ahmad,jawwad@fb.com,"Convert a few smaller/placeholder files to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40125158
+
+fbshipit-source-id: 58e7d605b63f24d0e8c35abb046d0ebae2edf9ae",0.5,None
+
+31,7f7183c7719e6753b30789940de5877ae6b73a96,Jawwad Ahmad,jawwad@fb.com,"Update README to remove the word open-source from the first sentence. Fixes #1116.
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40251329
+
+fbshipit-source-id: 61f44a9fcf0b362577f0e4f36902043c149168ac",0.5,None
+
+32,a9d5df54db3c92cb4faebf63d847781d5d3fce9c,Jawwad Ahmad,jawwad@fb.com,"Convert PublishPostCallback.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40124792
+
+fbshipit-source-id: af53348fdd3ffd210d235fb71ff00e77c1a6a104",0.5,None
+
+33,72e45add2f7b516cf2b4de6052e1ea7eec598e83,Ming Zhang,mingcaozhang@fb.com,"Migrate ContextSwitchDialog to Kotlin
+
+Summary: $title
+
+Reviewed By: jawwad
+
+Differential Revision: D40113396
+
+fbshipit-source-id: 7dcacca3c121a2d311e6390fc0358d8bd07f25ab",0.5,None
+
+34,5249a644d73f1309c663b4fd40c738cd5bda25d1,Ming Zhang,mingcaozhang@fb.com,"Migrate ContextCreateDialog to Kotlin
+
+Summary: $title
+
+Reviewed By: jawwad
+
+Differential Revision: D40110650
+
+fbshipit-source-id: 6642d5bff3f755c4de3e4de32c43095cdcc6951b",0.5,None
+
+35,0514c7bad7b4a813801e3d55d7037b3747f704b9,Ming Zhang,mingcaozhang@fb.com,"Migrate ContextChooseDialog to Kotlin
+
+Summary: $title
+
+Reviewed By: jawwad
+
+Differential Revision: D40080980
+
+fbshipit-source-id: dd1cf5758bbd6c644e2846410cef9dac2fcbf8c0",0.5,None
+
+36,b7a209284e3fb1e9a968a53cce4a82521393af41,Ming Zhang,mingcaozhang@fb.com,"Migrate ContextSwitchContent to Kotlin
+
+Summary: $title
+
+Reviewed By: jawwad
+
+Differential Revision: D40075224
+
+fbshipit-source-id: a235e978049878b32c2c761d204cf642395a00d9",0.5,None
+
+37,859dd692ec56f8ce303bb557e874b18537d95343,Ming Zhang,mingcaozhang@fb.com,"Migrate ContextCreateContent to Kotlin
+
+Summary: $title
+
+Reviewed By: jawwad
+
+Differential Revision: D40032248
+
+fbshipit-source-id: 33dfa68445758b40e4d0653103abe8b0f53f1759",0.5,None
+
+38,8554df03b021a353adb14267b8680a46826eb5be,Ming Zhang,mingcaozhang@fb.com,"Migrate ContextChooseContent to Kotlin
+
+Summary: $title
+
+Reviewed By: jawwad
+
+Differential Revision: D40029959
+
+fbshipit-source-id: 48cc06387797e3b1ad46b2680a27ccd045c5326f",0.5,None
+
+39,f9c84ac50b0eb6578e833bebef906267b2981b4c,Jawwad Ahmad,jawwad@fb.com,"Remove unused class AppInviteDialogFeature.java
+
+Summary: Didn't find this used anywhere and its also in internal so its not public API
+
+Reviewed By: panavenue
+
+Differential Revision: D40125728
+
+fbshipit-source-id: b843c4a167f8c2647512501d2d5811823d2e40cd",0.5,None
+
+40,0970b6a75057b5d243c58e34c17455e896042925,Jared Warren,jarwarren@fb.com,"Prevent attempting to parse a null string
+
+Summary: Passing a null string to` DateFormatter.format(isoDate:)` would cause an exception. DateFormatter now requires that the string not be null.
+
+Reviewed By: joesus
+
+Differential Revision: D39639775
+
+fbshipit-source-id: 628ab7773ac75f9e71016309cfd8899e54b2bc13",0.5,None
+
+41,3a85dddde8858667c5e3dadee99600b01197a224,Jared Warren,jarwarren@fb.com,"Add TournamentJoinDialog
+
+Summary: Add the TournamentJoinDialog
+
+Reviewed By: joesus
+
+Differential Revision: D39639776
+
+fbshipit-source-id: 1d9d467f4436482a81491b835826209942082e24",0.5,None
+
+42,dfbe44cc2fe796dd007447922c6e15fd418d56b5,Jawwad Ahmad,jawwad@fb.com,"Convert JsonUtil.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40110620
+
+fbshipit-source-id: 55e893402a549765784473b6e582c8055a2aec95",0.5,None
+
+43,d51c258452d19557a4c90626cc5479f98142eb97,Jawwad Ahmad,jawwad@fb.com,"Convert JsonUtilTest.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40110619
+
+fbshipit-source-id: 5c4ac49654e4b921ab71ca3976c306ba33073e25",0.5,None
+
+44,4bc099dcb72948bc41b853402458ae5053421956,Jawwad Ahmad,jawwad@fb.com,"Convert PowerMockIntegrationTest.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40076865
+
+fbshipit-source-id: ed0c361dc1feae1bbf6002775fdd898139b74a0d",0.5,None
+
+45,958379a8d9270ce7d4212aa2fe2d07d493bb1147,Jawwad Ahmad,jawwad@fb.com,"Convert TestUtils.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40076515
+
+fbshipit-source-id: 1fcaa4c94134e289b5822913cd91130802f46a61",0.5,None
+
+46,352deacc669bce300800aa7bbf9896cf84dae569,Jawwad Ahmad,jawwad@fb.com,"Remove unused methods from TestUtils.java
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40076516
+
+fbshipit-source-id: 7a96b95f341842019e273057f7db681153e0ea95",0.5,None
+
+47,a3f981d5bbcee51db02bca9ee4cd372fbede2b73,Jawwad Ahmad,jawwad@fb.com,"Convert ErrorClassificationTest.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40076270
+
+fbshipit-source-id: 74ee2c4a631e8299fdb9c5960a921dafa55d62c9",0.5,None
+
+48,7d7728e52d95a9a1354e1094c7e814f9055fe86b,Jawwad Ahmad,jawwad@fb.com,"Convert PermissionsActivity.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40075368
+
+fbshipit-source-id: fa0b552005bb1cb741f051ac4759b78c5c711789",0.5,None
+
+49,185b2c3bd86d322934136d638539836b3d1ad54d,Jawwad Ahmad,jawwad@fb.com,"Convert All.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D40077953
+
+fbshipit-source-id: ef5126e22ba9ba52140fbdd20b3d9d2f84452661",0.5,None
+
+50,ad62ba4f38cc221d0f03c366969d61abd6d18a9a,Jawwad Ahmad,jawwad@fb.com,"Convert MainActivity.java to Kotlin
+
+Summary: Ran the app. MainActivity showed up correctly and clicked on buttons to ensure that they continued to work
+
+Reviewed By: joesus
+
+Differential Revision: D40073456
+
+fbshipit-source-id: c287ed2f104bd13517114fd9a2d2b365d46aceec",0.5,None
+
+51,9dc50f3edbb21f2c9b77c0d77863fed20a0bed10,Jawwad Ahmad,jawwad@fb.com,"Convert PostsRequest.java to Kotlin
+
+Reviewed By: joesus
+
+Differential Revision: D40073148
+
+fbshipit-source-id: 882ee73bc20c3c3a3b6edc4c50a7739783519c9b",0.5,None
+
+52,38ab7122dd319bc6faa3687856a57ece004a5219,Jawwad Ahmad,jawwad@fb.com,"Convert ExampleInstrumentedTest.java to Kotlin
+
+Summary: Copied over the ExampleInstrumentedTest.kt from a new kotlin project
+
+Reviewed By: joesus
+
+Differential Revision: D40076048
+
+fbshipit-source-id: f39e834c140ab52ca3aff8ae5d46a37915a6b29a",0.5,None
+
+53,9b204ed959c281a4a9e14c213641d200004ea783,Jawwad Ahmad,jawwad@fb.com,"Convert ExampleUnitTest.java to Kotlin
+
+Reviewed By: joesus
+
+Differential Revision: D40075626
+
+fbshipit-source-id: 6fa00839f17104632cea78a2039b6891562be630",0.5,None
+
+54,25109e0ff6b4f450803c8af6ff539711e3877fbc,Ming Zhang,mingcaozhang@fb.com,"Fix hb4a release build for Android 12
+
+Summary:
+Broke the hb4a release build in D39939663 (https://github.com/facebook/facebook-android-sdk/commit/b391f0f3312386a416b425e6102ba2d038da21e9) when updating leakcanary (replaced the no-op dep by the regular one).
+
+No-op is not required anymore according to https://square.github.io/leakcanary/upgrading-to-leakcanary-2.0/
+
+Reviewed By: jawwad
+
+Differential Revision: D40062737
+
+fbshipit-source-id: a2593a449a68a1787aeb5b129f0bea0943a72ac1",0.5,None
+
+55,1cb3a650d1b35658ef1339f1636326cd2702d06d,Jawwad Ahmad,jawwad@fb.com,"Convert Util.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39973977
+
+fbshipit-source-id: 917a690fb51aa6c24d2668f36f9236b3b7987c6c",0.5,None
+
+56,bbf498556460458c1cfc7a6fa4ee3a3d7172c973,Jawwad Ahmad,jawwad@fb.com,"Convert FacebookLoginActivity.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39973826
+
+fbshipit-source-id: dc1243be78259d9f6b321be9f04a45d264e0d5cf",0.5,None
+
+57,b35643c9bb3f14a3e956dcfb3bd5bda82f620b72,Jawwad Ahmad,jawwad@fb.com,"Convert PostAdapter.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39942804
+
+fbshipit-source-id: 47139fe589c2da5702c920a58b3c1afb7005d149",0.5,None
+
+58,9a9d7a18bd77fe6b73e339096a372137ffe626a0,Jawwad Ahmad,jawwad@fb.com,"Convert Post.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39942805
+
+fbshipit-source-id: b752f1b7707783c759293b99372690fa0ffeb13a",0.5,None
+
+59,3131fe9befd05c3f8dbc6abd8bbeba3b991c38ac,Ming Zhang,mingcaozhang@fb.com,"Add KotlinSampleApp to settings.gradle
+
+Summary: KotlinSampleApp should be used to test that the SDK will still work with external apps, so we want to make sure we can test against it before a release.
+
+Reviewed By: jawwad
+
+Differential Revision: D39937647
+
+fbshipit-source-id: 34fb663f5c0fba18dae2a04dfbe58b2fef6fd791",0.5,None
+
+60,b391f0f3312386a416b425e6102ba2d038da21e9,Ming Zhang,mingcaozhang@fb.com,"Set target SDK to 31
+
+Summary:
+Updating the target SDK to Android 12 as per Google Play's requirements.
+
+https://support.google.com/googleplay/android-developer/answer/11926878
+
+Android 12 requires any component declaring an intent-filter to explicitly declare the `android:exported` attribute, so we have to update `AndroidManifest.xml` for some test/sample apps, and upgrade leakcanary to `2.9.1` which includes a similar fix.
+
+Reviewed By: jawwad
+
+Differential Revision: D39939663
+
+fbshipit-source-id: e2ccd38b1d8cf01a22ccb90986c041e189d7a215",0.5,None
+
+61,a641719f45d796c5be152246769dc148b4ecdf5b,Ming Zhang,mingcaozhang@fb.com,"Bump version to 15.0.1
+
+Summary: Bump version for hotfix fixing android 12 compatibility.
+
+Reviewed By: jawwad
+
+Differential Revision: D39933234
+
+fbshipit-source-id: 026595928083f015c4d11ba7594004414a4b61ef",0.5,None
+
+62,5d2fb4ddd876d1e1822676582980715757338ce5,Ming Zhang,mingcaozhang@fb.com,"Hotfix for Android 12 support
+
+Summary:
+Bug reported on github https://github.com/facebook/facebook-android-sdk/issues/1114.
+
+This is a common issue with the Android 12 rollout, notably `androidx.test:core` defines test activities with intent-filters without specifying an explicit `android:exported` value. Version `1.4.0` fixes this issue.
+
+Reviewed By: jawwad
+
+Differential Revision: D39930204
+
+fbshipit-source-id: 9edb88541f6f924b0edc8cf334ee9cebb62545be",0.5,None
+
+63,83911420b26802a1fd15797ac8587843835aa6a5,Jawwad Ahmad,jawwad@fb.com,"Convert GetPostsCallback.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39850337
+
+fbshipit-source-id: ceda00b53290c61bcafb0998601cc9aa585b868c",0.5,None
+
+64,2fc0bac0db21a8005b3804705ca4dc1aa50a2f22,Jawwad Ahmad,jawwad@fb.com,"Convert PostFeedActivity.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39850316
+
+fbshipit-source-id: c0f2d4789626058bc0df6e745be0ca176f99d9f7",0.5,None
+
+65,77829e825069065e345daf28862e66aaed1e30be,Jawwad Ahmad,jawwad@fb.com,"Convert PermissionCallback.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39825962
+
+fbshipit-source-id: 5384c2d662f12c1690c408f953394b57d631488d",0.5,None
+
+66,5203278207509082c1157eb39ee2c4a36d888543,Jawwad Ahmad,jawwad@fb.com,"Convert PermissionRequest.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39825866
+
+fbshipit-source-id: 2e52cdaa0872a74a96a891b1cc191a6d86f4147d",0.5,None
+
+67,778adfd9647a05ea20ae49de289cb651033803fe,Jawwad Ahmad,jawwad@fb.com,"Convert UserRequest.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39774106
+
+fbshipit-source-id: 0917e8d9fdcf1848990455fcf752fde88a7f8c87",0.5,None
+
+68,56db002e377caf6239969fe41e661de1ca96a2bd,Jawwad Ahmad,jawwad@fb.com,"One time formatting of all kotlin files in the repository using ktfmt
+
+Summary: Ran ktfmt with ktfmt-0.40-jar-with-dependencies.jar by following the directions on https://facebookincubator.github.io/ktfmt/ (under the ""Command line"" tab)
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39827182
+
+fbshipit-source-id: 94daa52854aee2311f675bdef2481ff259beb4a3",0.5,None
+
+69,88e0e81062e4d2d191f34802363e7141225c063a,Ming Zhang,mingcaozhang@fb.com,"Convert HackbookLoginManager to Kotlin
+
+Summary: $title
+
+Reviewed By: joesus
+
+Differential Revision: D39745055
+
+fbshipit-source-id: e317ee861fbc108475a23dfccdc68b0a1ef8e06a",0.5,None
+
+70,b343d4697741b5678182a1d24f4c11d5689aa7f4,Ming Zhang,mingcaozhang@fb.com,"Convert HackbookLoginClient to Kotlin
+
+Summary: $title
+
+Reviewed By: jawwad
+
+Differential Revision: D39742260
+
+fbshipit-source-id: 54f43bdfd9b06a03f8361a8c80e5d69b3b1464d6",0.5,None
+
+71,5a5266ab960ebd8fc44ff485f44afe419be83430,Jawwad Ahmad,jawwad@fb.com,"Convert GetUserCallback.java to Kotlin
+
+Summary: Also refactored the StringBuilder code a bit in jsonToUser and inspected the permissions variable to ensure that it was the same before and after the change
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39773817
+
+fbshipit-source-id: 9832e796514499b7b4498d31bd1ed6f94f6537aa",0.5,None
+
+72,c6b0b8887f91540898cb23edee593e6b19812dde,Jawwad Ahmad,jawwad@fb.com,"Convert User.java to Kotlin
+
+Summary: Made the email nullable since there is a check in ProfileActivity.kt that shows that the email may be null if the email permission is not grated.
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39772811
+
+fbshipit-source-id: 7df22f29ff1df797699759445ef113f83f455743",0.5,None
+
+73,12124adc7b8ebcc4c22f61fae4d285ae7062b34c,Jawwad Ahmad,jawwad@fb.com,"Convert FBLoginSampleApp.java to Kotlin
+
+Reviewed By: defHLT
+
+Differential Revision: D39771982
+
+fbshipit-source-id: 8eae5a6622c3af2c9b3c15478116a6fee0ae20ed",0.5,None
+
+74,1003e841cb75998e9db92755fb5c1a61142d92fa,Jawwad Ahmad,jawwad@fb.com,"Convert ProfileActivity.java to Kotlin
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39771286
+
+fbshipit-source-id: 8b34cc4d550a7b9adc315a1446d22a2207bae7cc",0.5,None
+
+75,9f3e2a2b61b70440c28f3a1e90569922aced7c6e,Jawwad Ahmad,jawwad@fb.com,"Update all open source copyright headers to the correct format
+
+Summary:
+- Updated to the new shorter open source headers that reference Meta instead of Facebook
+- Made most fixes with a series of shell commands that I added to a new scripts/fix_copyright_headers.sh script
+- Checked that no older headers remained with `ack -l 'Copyright.*Facebook'`
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D39750626
+
+fbshipit-source-id: 797ce9b0310b07f809fcb9cdd15d900a23f7cc69",0.5,None
+
+76,a165fff4c8534b6d7a16d3431097346ea0183e77,Ming Zhang,mingcaozhang@fb.com,"Fix failing badge on README
+
+Summary: Badge on README showed failing because the github workflow name changed, so the previous badge was no longer valid.
+
+Reviewed By: joesus
+
+Differential Revision: D39627917
+
+fbshipit-source-id: 2d632c89f18cbca7a448cbafcd70cd91c5f32a2d",0.5,None
+
+77,7477f8fedaa11133fa434fa7bf26171137e6222c,Ming Zhang,mingcaozhang@fb.com,"Bump version to 15.0.0
+
+Summary: $title
+
+Reviewed By: joesus
+
+Differential Revision: D39625406
+
+fbshipit-source-id: 5501a7605749084296da612dc766f26ddba3ba4d",0.5,None
+
+78,5eb2504728c564816b99a8c109c6d6e5f761681d,Ming Zhang,mingcaozhang@fb.com,"Update mockito-kotlin version
+
+Summary: D38673457 (https://github.com/facebook/facebook-android-sdk/commit/66df49edeff1bd78115ac0bda5161a06efe7cd0e) updated the mockito-kotlin version being used frrom 2.2.0 to 2.2.11 and includes a package rename. We cherry-picked some commits that were reverted for the git migration which refactored the way we manage dependencies so the change was missed.
+
+Reviewed By: joesus
+
+Differential Revision: D39284217
+
+fbshipit-source-id: cf9095e6ded73230c257211fca9e7f0c4d67ea15",0.5,None
+
+79,4101593b89ece22aa0bf2dbc72e4f53e72e3364f,Ming Zhang,mingcaozhang@fb.com,"Disable testCoverage in release build type
+
+Summary:
+`testCoverageEnabled = true` was in the release build type, which causes jacoco to init when running the release apk. We previously put `output=none` in `jacoco-agent.properties` under `src/debug/resources` which corresponds to the debug build.
+
+See for more details: https://github.com/jacoco/jacoco/issues/968#issuecomment-672996619
+
+Reviewed By: joesus
+
+Differential Revision: D39027728
+
+fbshipit-source-id: 66d9543e48435d1efe36a97b7a01675aea0a5470",0.5,None
+
+80,6709fd4f09b950f51a351c619ca3ed98cdea3e6e,Ming Zhang,mingcaozhang@fb.com,"Add jacoco-agent.properties to facebook-gamingservices
+
+Summary:
+Hackbook apk failing on launch because of missing jacoco.exec. Jacoco is pulled in by gaming-services, so we can apply the below fix in that module.
+
+See: https://github.com/jacoco/jacoco/issues/968
+
+Reviewed By: joesus
+
+Differential Revision: D38993822
+
+fbshipit-source-id: 2fb7e7d3a08bd1088ad4a5fe6454bff5beb7d813",0.5,None
+
+81,cd19c37677b254f36ba13405e5af4cb474e68fb2,Ming Zhang,mingcaozhang@fb.com,"Add jacoco.exec to gitignore
+
+Summary: Running `./gradlew build` on modules that use jacoco also generates a `jacoco.exec` file that we don't want to check in to git.
+
+Reviewed By: joesus
+
+Differential Revision: D38979512
+
+fbshipit-source-id: 1e5f85ba73961234aba45696771c1520e2cfc56e",0.5,None
+
+82,18bd210fe4183214a26d4a719e28a2f94fa5416e,Ming Zhang,mingcaozhang@fb.com,"Fix test sourceSets in gradle files
+
+Summary: Mistakenly removed some sourceSets in the previous diffs in the stack. which makes it so that Android Studio no longer marks the `src/test/kotlin` files are test source files. Re-add the sources to have IDE support.
+
+Reviewed By: joesus
+
+Differential Revision: D38909312
+
+fbshipit-source-id: bac4ac60519b9f25efceadc0aa4db98e770bac24",0.5,None
+
+83,6497c792bafd5f409e8bcccc09c96b94a581de64,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook-testutil: build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38873369
+
+fbshipit-source-id: 16197b086120b9aeec410974f803d89a45a73a05",0.5,None
+
+84,d0ec24d866a92732d651835e5c848244901c62f6,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook-share: build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38873150
+
+fbshipit-source-id: f2155d9fd715332677e1f4e0c4c459a2b24dfb7e",0.5,None
+
+85,6207a24452ac18481cd18f85d60d5f7467ff1cb7,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook-messenger: build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38872932
+
+fbshipit-source-id: 3cf8c4c6ff4179989197cae3c630aa37b9d1c150",0.5,None
+
+86,8d7ce3bddbf838c9a5ab8db5481fe896637ccca9,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook-login: build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38867979
+
+fbshipit-source-id: 6c28f13105b1aede6cff9634adc6515f1d180695",0.5,None
+
+87,58a1aad2cdf24c767dfe116b0877ce13f9f86680,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook-gamingservices: build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38867270
+
+fbshipit-source-id: 426fc3e0c93781e7d8415259863244564173ea7e",0.5,None
+
+88,4ef3a2ae8470e8f813b109ee6478efef70740f7d,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook-core: build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38866230
+
+fbshipit-source-id: a60a3dfbce2d05f1200ef8540984f11edac9dadb",0.5,None
+
+89,0478f4d860817c32568c5bf95cdc7576f9b6e17f,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook-common: build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38844222
+
+fbshipit-source-id: 62f5f96c5f09b2c2debe9c6462d365cd4e3883e8",0.5,None
+
+90,ef684920b20f64d01561e4044b72ac17dfa1f531,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook-bolts build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38836338
+
+fbshipit-source-id: 96624c828f5377ad5f934bca0fceda040eda3637",0.5,None
+
+91,119688dd951ea2e6cb00ff87a459764724489e31,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook-applinks build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38836337
+
+fbshipit-source-id: 84a854e0369d7f42caa88e9024a45887cfa93d24",0.5,None
+
+92,8e1229f516c3202516c26181099d941bb89b4292,Ming Zhang,mingcaozhang@fb.com,"Migrate :facebook: build.gradle to kotlin
+
+Summary: Migrate gradle scripts to kotlin for IDE support.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38831204
+
+fbshipit-source-id: 3e743e4b94b462f5308141f55b8baf705d9a17e9",0.5,None
+
+93,803c8260e4ec66062f3d32907f060d8c5909b1f0,Ming Zhang,mingcaozhang@fb.com,"Migrate root-level gradle files to Kotlin
+
+Summary: Move `jacoco.gradle` and `settings.gradle` to kotlin, and removes constants.gradle as we use `buildSrc` for constants now.
+
+Reviewed By: linmx0130
+
+Differential Revision: D38796609
+
+fbshipit-source-id: 7e992588d27359dd0d78ebb6aaff87623970b770",0.5,None
+
+94,3191cef6a1941e98687c167495db903eb5c7c0e6,Ming Zhang,mingcaozhang@fb.com,"Use buildSrc for dependencies
+
+Summary:
+Using `constants.gradle` is an older way of managing dependencies. The recommendation is now to use the kotlin-dsl plugin which allows an reserved `buildSrc` module which is accessible to all other modules. This enables IDE support which is a huge QoL improvement when dealing with dependencies as we no longer have to rely on full text search only.
+
+See:
+https://docs.gradle.org/current/userguide/organizing_gradle_projects.html
+https://proandroiddev.com/better-dependencies-management-using-buildsrc-kotlin-dsl-eda31cdb81bf
+https://github.com/antoniolg/Bandhook-Kotlin
+
+Reviewed By: linmx0130
+
+Differential Revision: D38715544
+
+fbshipit-source-id: a700cf59ce10c1ff863a88b060b886c1b19e61fa",0.5,None
+
+95,b7a1c9cad41e4d7bd2e9f63fe8f4e7e0c17ab5a9,Ming Zhang,mingcaozhang@fb.com,"Remove buck files and references except for scripts
+
+Summary: Remove buck files and string references to buck. Does not remove buck usage in scripts, that will be done in a separate diff (either by removing the scripts altogether or adapting them to use gradle).
+
+Reviewed By: joesus
+
+Differential Revision: D38547845
+
+fbshipit-source-id: 0e71fa0810fd8b99c7533a54a11a2009cdcf4a8e",0.5,None
+
+96,384ae9cc5053b3b4e8902637fe5bcaa9e858e0b1,Joe Susnick,joesusnick@fb.com,"Add keystore files to gitignore
+
+Summary: $title
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D38400212
+
+fbshipit-source-id: c25219455467a43702152ae68f47dd7d127c1a0a",0.5,None
+
+97,90f99d864169ce7c035974f5c6621db53189959e,Joe Susnick,joesusnick@fb.com,"Adding unit tests
+
+Summary: Adds ci job for unit tests
+
+Reviewed By: mingcaozhang
+
+Differential Revision: D38209845
+
+fbshipit-source-id: 657ee495d73e8beeee91421c3e0cf669c4b1c6d6",0.5,None
+
+98,ec09b6c566677d4ebd23b539251bb9cbd0755b12,Joe Susnick,joesusnick@fb.com,fbshipit-source-id: 0ab4a5ceeaa0ba9613b60d757a0ed7985de4f0eb,0.5,None
+
+99,0ab4a5ceeaa0ba9613b60d757a0ed7985de4f0eb,Intl Scheduler,,"translation auto-update for i18n/androidsdk.config.json on master
+
+Summary:
+Chronos Job Instance ID: 1125907514300346
+Sandcastle Job Instance ID: 36028797782392272
+allow-large-files
+ignore-conflict-markers
+opt-out-review
+
+Differential Revision: D39233396
+
+fbshipit-source-id: 24949508d8de50d48ee1f046282ce0b000eaa127",0.5,None
+
+100,cf2b1d4b160256f17f77b9c5b20f04962b0830d0,Ming Zhang,mingcaozhang@fb.com,"Bump version to 14.1.1
+
+Summary: Bump version for patch
+
+Reviewed By: joesus
+
+Differential Revision: D39112460
+
+fbshipit-source-id: 22fbbba4c776fa4122845a31daa64fc0b1e86adc",0.5,None
