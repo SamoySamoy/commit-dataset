@@ -11,17 +11,16 @@ def calculate_important_score(text):
     doc = nlp(text)
     # Define the important parts of speech
     important_pos = ["NOUN", "VERB", "ADJ"]
-    keywords = ["fix", "add", "security", "fixed", "sync", "remove"]
+    keywords = ["fix", "add", "security", "fixed", "sync", "remove", "update", "migrate", "feature", "feat", "change", "changes", "refactor"]
     # Calculate the importance score for the sentence
     score = 0
-    length = len(text)
+    length = len(doc)
     important_words = sum(1 for token in doc if token.pos_ in important_pos)
     keywords = sum(1 for token in doc if token.text.lower() in keywords)
     score = (important_words * 2) + keywords - length
-    if score >= 3:
-        return True
-    else:
+    if length <= 3 and score <= 1:
         return False
+    return score >= 0
 
 
 def crawl_commits(repo_owner, repo_name): # need fixed to crawl all commits one time
@@ -31,7 +30,7 @@ def crawl_commits(repo_owner, repo_name): # need fixed to crawl all commits one 
     api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits"
     headers = {"Accept": "application/vnd.github.v3+json"}
     params = {"per_page": 100}  # Number of commits to fetch per page
-    auth_token = "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"
+    auth_token = "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"
 
     # Make API request to get commits
     response = requests.get(api_url, headers=headers, params=params, auth=(auth_token, ""))
@@ -85,10 +84,13 @@ def expand_dataset(commits, file):
                     is_important -= 0.3
                 else:
                     is_important -= 0.5
-
+            if is_important == 1:
+                print(message)
             new_row = [id, sha, author_name, author_email, message, round(is_important,1), summa, type]
             writer.writerow([])
             writer.writerow(new_row)
+
+
 
 
 
