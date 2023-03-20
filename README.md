@@ -1,1 +1,1 @@
-Tool help prepare datgaset for training
+Tool help prepare dataset for training
