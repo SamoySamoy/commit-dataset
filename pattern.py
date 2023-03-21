@@ -20,3 +20,5 @@ bot_message_patterns = [re.compile(r"\[skip ci\]", re.IGNORECASE),
                 re.compile(r"chore", re.IGNORECASE),
                 re.compile(r"merge", re.IGNORECASE),
                 re.compile(r"gitlab-ci\.yml", re.IGNORECASE)]
+
+

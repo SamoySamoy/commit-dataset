@@ -22,7 +22,6 @@ def calculate_important_score(text):
         return False
     return score >= 0
 
-
 def crawl_commits(repo_owner, repo_name): # need fixed to crawl all commits one time
     # Set up variables
     repo_owner = repo_owner
