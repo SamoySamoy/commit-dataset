@@ -1,316 +1,432 @@
 
-0,4b10c7ccc40b4466ffa057205cf4225c7c19b399,Robert Metzger,rmetzger@apache.org,[hotfix] Update copyright NOTICE year to 2023,1,None,changed
+0,0dbe1d3284498b06fc53af9c093682f58d579427,Viraj Jasani,vjasani@apache.org,HADOOP-18668. Path capability probe for truncate is only honored by RawLocalFileSystem (#5492),0.7,None,added
 
-1,47944ce00e0819231ae2e099f2382a188f4dae91,Jark Wu,jark@apache.org,[FLINK-31514][table-planner] Move query SqlNode conversion logic to SqlQueryConverter (#22213),0.7,None,changed
+1,9a8287c36f2ecc41a8fe9f154df7784cf29ef75a,Viraj Jasani,vjasani@apache.org,HADOOP-18669. Remove Log4Json Layout (#5493),0.7,None,remove
 
-2,452986dd05b193d492e0fc7b817f61b9695871d2,Jark Wu,jark@apache.org,"[FLINK-31507][table] Move execution logic of DescribeTableOperation out from TableEnvironmentImpl
+2,f8d0949f7d60f952fe658dd295bf040fc7cc2b15,Viraj Jasani,vjasani@apache.org,HDFS-16953. RBF: Mount table store APIs should update cache only if state store record is successfully updated (#5482),0.7,None,changed
+
+3,b6a9d7b4429970e332e5e07f0cf3265ee5d0e909,Viraj Jasani,vjasani@apache.org,HADOOP-18631. (ADDENDUM) Use LogCapturer to match audit log pattern and remove hdfs async audit log configs (#5451),0.7,None,remove
+
+4,fa723ae83916af6e814923eca53a5fef046d33aa,slfan1989,55643692+slfan1989@users.noreply.github.com,"YARN-11445. [Federation] Add getClusterInfo, getClusterUserInfo REST APIs for Router. (#5472)",0.7,None,added
+
+5,759ddebb132b5d7d83dacc2e09adfb9817bcad3b,Pranav Saxena,108325433+saxenapranav@users.noreply.github.com,"HADOOP-18647. x-ms-client-request-id to identify the retry of an API. (#5437)
+
+
+The x-ms-client-request-id now includes a field to indicate a call is a retry of a previous
+operation
+
+Contributed by Pranav Saxena",0.7,None,changed
+
+6,7c42d0f7da1d154f0bfdc1ffd2070508a365babc,Masatake Iwasaki,iwasakims@apache.org,"HADOOP-17746. Compatibility table in directory_markers.md doesn't render right. (#3116)
+
+
+Contributed by Masatake Iwasaki",0.7,None,changed
+
+7,15935fa86501810978103cae14ea7f65d0bb0aa4,Viraj Jasani,vjasani@apache.org,HDFS-16947. RBF NamenodeHeartbeatService to report error for not being able to register namenode in state store (#5470),0.7,None,changed
+
+8,cf4a678ce946cecd035677bce756794ef286d795,Viraj Jasani,vjasani@apache.org,HADOOP-18649. CLA and CRLA appenders to be replaced with RFA (#5448),0.7,None,changed
+
+9,405bfa28002aafdc8afc31d4648d2388cff3c4c3,Viraj Jasani,vjasani@apache.org,HADOOP-18654. Remove unused custom appender TaskLogAppender (#5457),1,None,remove
+
+10,eee2ea075d10b197837ceca8cbb2260b48b29d10,Stephen O'Donnell,stephen.odonnell@gmail.com,HDFS-16942. Addendum. Send error to datanode if FBR is rejected due to bad lease (#5478). Contributed by Stephen O'Donnell/,0.7,None,changed
+
+11,aff840c59c81c1093f2d4bafeaedb0c4c8742eae,Viraj Jasani,vjasani@apache.org,"HADOOP-18653. LogLevel servlet to determine log impl before using setLevel (#5456)
+
+
+The log level can only be set on Log4J log implementations;
+probes are used to downgrade to a warning when other
+logging back ends are used
+
+Contributed by Viraj Jasani",0.7,None,changed
+
+12,09469bf47dd1eb1d880f8119bf62c29cf70cdf58,Steve Loughran,stevel@cloudera.com,"HADOOP-18661. Fix bin/hadoop usage script terminology. (#5473)
+
+Followup to HADOOP-13209: s/slaves/r/workers in
+the usage message you get when you type ""bin/hadoop""
+
+Contributed by Steve Loughran",0.7,None,fixed
+
+13,476340c6999df71480164b18abd809c5e710d87a,PJ Fanning,pjfanning@users.noreply.github.com,"HADOOP-18658. snakeyaml dependency: upgrade to v2.0 (#5467). Contributed by PJ Fanning.
+
+Signed-off-by: Ayush Saxena <ayushsaxena@apache.org>",0.2,None,changed
+
+14,ca6f5afb6da7f1c40ba42061d34b60b54bb01712,Stephen O'Donnell,stephen.odonnell@gmail.com,HDFS-16942. Send error to datanode if FBR is rejected due to bad lease (#5460),0.7,None,changed
+
+15,734f7abfb8b84a4c20dbae5073cf2d4fb60adc1c,nao,56360298+nao-it@users.noreply.github.com,"HADOOP-18646. Upgrade Netty to 4.1.89.Final to fix CVE-2022-41881 (#5435)
+
+
+This fixes CVE-2022-41881.
+
+This also upgrades io.opencensus dependencies to 0.12.3
+ 
+Contributed by Aleksandr Nikolaev",0.2,None,changed
+
+16,b406060c6b04a6115a920ad6800ee4a52a2f291f,slfan1989,55643692+slfan1989@users.noreply.github.com,YARN-8972. [Router] Add support to prevent DoS attack over ApplicationSubmissionContext size. (#5382),0.7,None,added
+
+17,487368c4b92c5b8128cb3ef6661f21afe7e8acb9,rohit-kb,115476286+rohit-kb@users.noreply.github.com,"HADOOP-18655. Upgrade kerby to 2.0.3 due to CVE-2023-25613 (#5458)
+
+
+Upgrade kerby to 2.0.3 due to the CVE https://nvd.nist.gov/vuln/detail/CVE-2023-25613
+
+
+Contributed by Rohit Kumar Badeau",0.7,None,changed
+
+18,358bf80c945e5342915424e176c08fed42a38188,Pranav Saxena,108325433+saxenapranav@users.noreply.github.com,"HADOOP-18606. ABFS: Add reason in x-ms-client-request-id on a retried API call. (#5299)
+
+
+
+Contributed by Pranav Saxena",0.7,None,added
+
+19,927401886ae5be5f3c8dd6d82f13363bba594396,slfan1989,55643692+slfan1989@users.noreply.github.com,"HDFS-16934. TestDFSAdmin.testAllDatanodesReconfig regression (#5434)
+
+
+Contributed by Shilun Fan",0.7,None,added
+
+20,2cb0c35fc1fe64bbbae7f6448977143d3dcc8ed4,zhangshuyan,81411509+zhangshuyan0@users.noreply.github.com,"HDFS-16939. Fix the thread safety bug in LowRedundancyBlocks. (#5450). Contributed by Shuyan Zhang.
+
+Signed-off-by: He Xiaoqiao <hexiaoqiao@apache.org>",0.7,None,fixed
+
+21,2a0dc2ab2f5fb46dc540ed440d6c8b2896dd195b,Varun Saxena,varunsaxena@apache.org,"YARN-11383. Workflow priority mappings is case sensitive (#5171)
+
+Contributed by Aparajita Choudhary",0.7,None,changed
+
+22,6bd24448154fcd3ab9099d7783cc7f7f76c61e08,ZanderXu,zanderxu@apache.org,"HDFS-16923. [SBN read] getlisting RPC to observer will throw NPE if path does not exist (#5400)
+
+Signed-off-by: Erik Krogen <xkrogen@apache.org>",0.7,None,changed
+
+23,e1ca466bdbf330572eab4772446e004ae5151313,Viraj Jasani,vjasani@apache.org,HADOOP-18648. Avoid loading kms log4j properties dynamically by KMSWebServer (#5441),0.7,None,changed
+
+24,162288bc0af944f116a4dd73e27f4676a204d9e9,Tom,mccormickt12@gmail.com,"HDFS-16896 clear ignoredNodes list when we clear deadnode list on ref… (#5322)
+
+HDFS-16896 clear ignoredNodes list when we clear deadnode list on refetchLocations. 
+ignoredNodes list is only used on hedged read codepath
+
+Co-authored-by: Tom McCormick <tmccormi@linkedin.com>",0.7,None,changed
+
+25,2ab7eb4caa9fe012e671434c5bce0e7169440e16,Viraj Jasani,vjasani@apache.org,"HDFS-16935. Fix TestFsDatasetImpl#testReportBadBlocks (#5432)
+
+
+Contributed by Viraj Jasani",0.7,None,fixed
+
+26,8f6be3678d1113e3e7f5477c357fc81f62d460b8,Szilard Nemeth,snemeth@apache.org,MAPREDUCE-7434. Fix ShuffleHandler tests. Contributed by Tamas Domok,0.7,None,fixed
+
+27,28d2753d2f86237868034ca1695f84e2eb2ab6cf,Viraj Jasani,vjasani@apache.org,"HADOOP-18645. Provide keytab file key name with ServiceStateException (#5433)
+
+Signed-off-by: Tao Li <tomscut@apache.org>",0.7,None,changed
+
+
+29,4b10c7ccc40b4466ffa057205cf4225c7c19b399,Robert Metzger,rmetzger@apache.org,[hotfix] Update copyright NOTICE year to 2023,1,None,changed
+
+30,47944ce00e0819231ae2e099f2382a188f4dae91,Jark Wu,jark@apache.org,[FLINK-31514][table-planner] Move query SqlNode conversion logic to SqlQueryConverter (#22213),0.7,None,changed
+
+31,452986dd05b193d492e0fc7b817f61b9695871d2,Jark Wu,jark@apache.org,"[FLINK-31507][table] Move execution logic of DescribeTableOperation out from TableEnvironmentImpl
 
 This closes #22215",0.7,None,changed
 
-3,96b17a63c51d39a83f24945f4ae15a1280f4f5a8,Jark Wu,jark@apache.org,"[FLINK-31507][table] Move execution logic of ShowOperation out from TableEnvironmentImpl
+32,96b17a63c51d39a83f24945f4ae15a1280f4f5a8,Jark Wu,jark@apache.org,"[FLINK-31507][table] Move execution logic of ShowOperation out from TableEnvironmentImpl
 
 This closes #22215",0.7,None,changed
 
-4,25798e8b2ed26307daaf4437aa144e345710843d,shammon FY,zjureel@gmail.com,"[FLINK-31521][jdbc-driver] Initialize jdbc driver modules in flink-table
+33,25798e8b2ed26307daaf4437aa144e345710843d,shammon FY,zjureel@gmail.com,"[FLINK-31521][jdbc-driver] Initialize jdbc driver modules in flink-table
 
 This close #22221",1,None,changed
 
-5,1d33773e6b7f9f76f03ff8ffd73171b95fa24ccb,Hang Ruan,ruanhang1993@hotmail.com,"[FLINK-25509][connector-base] Add RecordEvaluator to dynamically stop source based on de-serialized records
+34,1d33773e6b7f9f76f03ff8ffd73171b95fa24ccb,Hang Ruan,ruanhang1993@hotmail.com,"[FLINK-25509][connector-base] Add RecordEvaluator to dynamically stop source based on de-serialized records
 
 This closes #21589.",0.7,None,added
 
-6,d88f39c4486786d1b146ca71390400d9be3375a4,Weijie Guo,reswqa@163.com,"[FLINK-31405][test] Refactor tests to git rid of timeout of CompletableFuture assertions.
+35,d88f39c4486786d1b146ca71390400d9be3375a4,Weijie Guo,reswqa@163.com,"[FLINK-31405][test] Refactor tests to git rid of timeout of CompletableFuture assertions.
 
 This closes #22161",0.7,None,changed
 
-7,dfba6cb91b4f11f41afd4daa4b922714e30dfb3f,Weijie Guo,reswqa@163.com,"[FLINK-31405][test] Introduce willNotCompleteWithin for FlinkCompletableFutureAssert.
+36,dfba6cb91b4f11f41afd4daa4b922714e30dfb3f,Weijie Guo,reswqa@163.com,"[FLINK-31405][test] Introduce willNotCompleteWithin for FlinkCompletableFutureAssert.
 
 This is a replacement for FlinkMatchers#willNotComplete(Duration) in assertj.",0.7,None,changed
 
-8,f0ee3e685690697ec9ad212bd6cf6b3fa8928535,Weijie Guo,reswqa@163.com,[hotfix] Remove public class & method modifier for some tests and migrate AdaptiveSchedulerTest to Juint5.,0.7,None,remove
+37,f0ee3e685690697ec9ad212bd6cf6b3fa8928535,Weijie Guo,reswqa@163.com,[hotfix] Remove public class & method modifier for some tests and migrate AdaptiveSchedulerTest to Juint5.,0.7,None,remove
 
-9,0180284381bf7999781d542219d2a097f3cbc098,lincoln lee,lincoln.86xy@gmail.com," [FLINK-31487][table-planner] Add targetColumns to DynamicTableSink#Context
+38,0180284381bf7999781d542219d2a097f3cbc098,lincoln lee,lincoln.86xy@gmail.com," [FLINK-31487][table-planner] Add targetColumns to DynamicTableSink#Context
 
 This closes #22197",0.7,None,added
 
-10,3d350485755e47d2b09ac1b2067b6119ef960b5a,Aitozi,yuli.mwj@alibaba-inc.com,[FLINK-29585][hive] Migrate TableSchema to Schema for Hive connector (#21522),0.7,None,changed
+39,3d350485755e47d2b09ac1b2067b6119ef960b5a,Aitozi,yuli.mwj@alibaba-inc.com,[FLINK-29585][hive] Migrate TableSchema to Schema for Hive connector (#21522),0.7,None,changed
 
-11,1d97e443032335b0d8b93cc6850d0b4d1308a568,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-31506][table] Move execution logic of AlterOperation out from TableEnvironmentImpl (#22210),0.7,None,changed
+40,1d97e443032335b0d8b93cc6850d0b4d1308a568,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-31506][table] Move execution logic of AlterOperation out from TableEnvironmentImpl (#22210),0.7,None,changed
 
-12,3e6a831eb30883790aaf37c2f49dfcb5e1b5e8ae,Jark Wu,jark@apache.org,[FLINK-31504][table] Move execution logic of CreateOperation out from TableEnvironmentImpl (#22214),0.7,None,changed
+41,3e6a831eb30883790aaf37c2f49dfcb5e1b5e8ae,Jark Wu,jark@apache.org,[FLINK-31504][table] Move execution logic of CreateOperation out from TableEnvironmentImpl (#22214),0.7,None,changed
 
-13,a06aaa00b083955fdff01be00e78afbbd666cd57,Jark Wu,jark@apache.org,"[FLINK-30700][docs-zh] Improve translate of the ""Deduplication"" page",0.7,None,fixed
+42,a06aaa00b083955fdff01be00e78afbbd666cd57,Jark Wu,jark@apache.org,"[FLINK-30700][docs-zh] Improve translate of the ""Deduplication"" page",0.7,None,fixed
 
-14,f7ee479c08cc83327a1b55ae3f1d7798a63b0a7b,HaiYang Chen,690732060@qq.com,"[FLINK-30700][docs-zh] Translate ""Deduplication"" page of ""Queries"" into Chinese
+43,f7ee479c08cc83327a1b55ae3f1d7798a63b0a7b,HaiYang Chen,690732060@qq.com,"[FLINK-30700][docs-zh] Translate ""Deduplication"" page of ""Queries"" into Chinese
 
 This closes #21687",0.7,None,changed
 
-15,4c8aa0ba7b0da1f9ae04ae0b5c1593877313fa28,Jark Wu,jark@apache.org,"[FLINK-30696][docs-zh] Improve translate of the ""Join"" page",0.7,None,fixed
+44,4c8aa0ba7b0da1f9ae04ae0b5c1593877313fa28,Jark Wu,jark@apache.org,"[FLINK-30696][docs-zh] Improve translate of the ""Join"" page",0.7,None,fixed
 
-16,abed76b106d0c8cfe63e0755489ec6bc85c41012,HaiYang Chen,690732060@qq.com,"[FLINK-30696][docs-zh] Translate ""Join"" page of ""Queries"" into Chinese
+45,abed76b106d0c8cfe63e0755489ec6bc85c41012,HaiYang Chen,690732060@qq.com,"[FLINK-30696][docs-zh] Translate ""Join"" page of ""Queries"" into Chinese
 
 This closes #21685",0.7,None,changed
 
-17,fa8230bd79da57e87a157aaf2856c749ab44eabc,Jark Wu,jark@apache.org,"[FLINK-30714][docs-zh] Improve translate of ""Window Aggregation"" page",0.7,None,fixed
+46,fa8230bd79da57e87a157aaf2856c749ab44eabc,Jark Wu,jark@apache.org,"[FLINK-30714][docs-zh] Improve translate of ""Window Aggregation"" page",0.7,None,fixed
 
-18,8c5f1ee214ba7ebbced4a435c97078bf894a2123,HaiYang Chen,690732060@qq.com,"[FLINK-30714][docs-zh] Translate ""Window Aggregation"" page of ""Queries"" into Chinese
+47,8c5f1ee214ba7ebbced4a435c97078bf894a2123,HaiYang Chen,690732060@qq.com,"[FLINK-30714][docs-zh] Translate ""Window Aggregation"" page of ""Queries"" into Chinese
 
 This closes #21702",0.7,None,changed
 
-19,dad718523fa483c22e6ee38abd988e111fa164fa,Jark Wu,jark@apache.org,"[FLINK-30722][docs-zh] Improve translation of ""Group Aggregation"" page",0.7,None,fixed
+48,dad718523fa483c22e6ee38abd988e111fa164fa,Jark Wu,jark@apache.org,"[FLINK-30722][docs-zh] Improve translation of ""Group Aggregation"" page",0.7,None,fixed
 
-20,8ea03789eda2ca74946e6d4274efe40301da4485,HaiYang Chen,690732060@qq.com,"[FLINK-30722][docs-zh] Translate ""Group Aggregation"" page of ""Queries"" into Chinese
+49,8ea03789eda2ca74946e6d4274efe40301da4485,HaiYang Chen,690732060@qq.com,"[FLINK-30722][docs-zh] Translate ""Group Aggregation"" page of ""Queries"" into Chinese
 
 This closes #21706",0.7,None,changed
 
-21,fb1f91d6731d46a2345cbf212c3c145015c024e4,Jark Wu,jark@apache.org,"[FLINK-30728][docs-zh] Improve translation of ""Over Aggregation"" page",0.7,None,fixed
+50,fb1f91d6731d46a2345cbf212c3c145015c024e4,Jark Wu,jark@apache.org,"[FLINK-30728][docs-zh] Improve translation of ""Over Aggregation"" page",0.7,None,fixed
 
-22,b111bef6a47ffdba37792a94c8c75b7751ab9042,HaiYang Chen,690732060@qq.com,"[FLINK-30726][docs-zh] Translate ""Over Aggregation"" page of ""Queries"" into Chinese
+51,b111bef6a47ffdba37792a94c8c75b7751ab9042,HaiYang Chen,690732060@qq.com,"[FLINK-30726][docs-zh] Translate ""Over Aggregation"" page of ""Queries"" into Chinese
 
 This closes #21711",0.7,None,changed
 
-23,5a468f582f6d4d55b59d1f4cfe65e9dd5af7f4a5,Jark Wu,jark@apache.org,"[FLINK-30728][docs-zh] Improve translation of ""Window Join"" page",0.7,None,fixed
+52,5a468f582f6d4d55b59d1f4cfe65e9dd5af7f4a5,Jark Wu,jark@apache.org,"[FLINK-30728][docs-zh] Improve translation of ""Window Join"" page",0.7,None,fixed
 
-24,7c534f424dfa4185cd60b11a094c5f5dcd90e200,HaiYang Chen,690732060@qq.com,"[FLINK-30728][docs-zh] Translate ""Window Join"" page of ""Queries"" into Chinese
+53,7c534f424dfa4185cd60b11a094c5f5dcd90e200,HaiYang Chen,690732060@qq.com,"[FLINK-30728][docs-zh] Translate ""Window Join"" page of ""Queries"" into Chinese
 
 This closes #21712",0.7,None,changed
 
-25,9830fd831cfc1ffa1382270a0f329c509d9021f3,Jark Wu,jark@apache.org,"[FLINK-30731][docs-zh] Improve the translation of ""Set Operations"" page",0.7,None,fixed
+54,9830fd831cfc1ffa1382270a0f329c509d9021f3,Jark Wu,jark@apache.org,"[FLINK-30731][docs-zh] Improve the translation of ""Set Operations"" page",0.7,None,fixed
 
-26,aec9efb811bb37b28e168435d679416044ac5d8e,HaiYang Chen,690732060@qq.com,"[FLINK-30731][docs-zh] Translate ""Set Operations"" page of ""Queries"" into Chinese
+55,aec9efb811bb37b28e168435d679416044ac5d8e,HaiYang Chen,690732060@qq.com,"[FLINK-30731][docs-zh] Translate ""Set Operations"" page of ""Queries"" into Chinese
 
 This closes #21713",0.7,None,changed
 
-27,770d361048b78ac41d07134d8d73c5e88c342329,Dian Fu,dianfu@apache.org,[python][docs] Update PyFlink docker image build documentation,1,None,changed
+56,770d361048b78ac41d07134d8d73c5e88c342329,Dian Fu,dianfu@apache.org,[python][docs] Update PyFlink docker image build documentation,1,None,changed
 
-28,598f92f46f7773228403becd449ce422b61cdc9f,Jark Wu,jark@apache.org,"[FLINK-30735][docs-zh] Improve the translation of ""Top-N"" page",0.7,None,fixed
+57,598f92f46f7773228403becd449ce422b61cdc9f,Jark Wu,jark@apache.org,"[FLINK-30735][docs-zh] Improve the translation of ""Top-N"" page",0.7,None,fixed
 
-29,460227a7a89852b057a74ead75fa291483921930,HaiYang Chen,690732060@qq.com,"[FLINK-30735][docs-zh] Translate ""Top-N"" page of ""Queries"" into Chinese
+58,460227a7a89852b057a74ead75fa291483921930,HaiYang Chen,690732060@qq.com,"[FLINK-30735][docs-zh] Translate ""Top-N"" page of ""Queries"" into Chinese
 
 This closes #21715",0.7,None,changed
 
-30,0a8bf9448266d81a54c79958ba18c17caf7abe76,Dian Fu,dianfu@apache.org,[python][examples] Add Python streaming word count examples,1,None,added
+59,0a8bf9448266d81a54c79958ba18c17caf7abe76,Dian Fu,dianfu@apache.org,[python][examples] Add Python streaming word count examples,1,None,added
 
-31,06be368a3f1e821bdb1063b828009748f2f4239c,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-31505][table] Move execution logic of DropOperation out from TableEnvironmentImpl (#22209),0.7,None,changed
+60,06be368a3f1e821bdb1063b828009748f2f4239c,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-31505][table] Move execution logic of DropOperation out from TableEnvironmentImpl (#22209),0.7,None,changed
 
-32,de258f3ce01e720d23bec67c20892133f89293d3,Dian Fu,dianfu@apache.org,"[FLINK-31503][python] Makes sure it loads Beam classes using the same class loader as the PyFlink classes
+61,de258f3ce01e720d23bec67c20892133f89293d3,Dian Fu,dianfu@apache.org,"[FLINK-31503][python] Makes sure it loads Beam classes using the same class loader as the PyFlink classes
 
 This closes #22206.",0.7,None,changed
 
-33,ba03d4db7ca01c7a2436253b9f9429a2a3fb3219,Jark Wu,jark@apache.org,[FLINK-31494][table-planner] Introduce SqlNodeConverter for SqlToOperationConverter,0.7,None,changed
+62,ba03d4db7ca01c7a2436253b9f9429a2a3fb3219,Jark Wu,jark@apache.org,[FLINK-31494][table-planner] Introduce SqlNodeConverter for SqlToOperationConverter,0.7,None,changed
 
-34,fa0dd3559e9697e21795a2634d8d99a0b7efdcf3,Jark Wu,jark@apache.org,[hotfix][table] Rename SqlToOperationConverter to SqlNodeToOperationConversion,0.7,None,changed
+63,fa0dd3559e9697e21795a2634d8d99a0b7efdcf3,Jark Wu,jark@apache.org,[hotfix][table] Rename SqlToOperationConverter to SqlNodeToOperationConversion,0.7,None,changed
 
-35,5e059efee864e17939a33f29272a848d00598531,Dian Fu,dianfu@apache.org,"[FLINK-31478][python] Fix ds.execute_and_collect to support nested tuple
+64,5e059efee864e17939a33f29272a848d00598531,Dian Fu,dianfu@apache.org,"[FLINK-31478][python] Fix ds.execute_and_collect to support nested tuple
 
 This closes #22190.",0.7,None,fixed
 
-36,ff08c7b1d7fb9334d624aa74bc5788d4d7ac1edc,lincoln lee,lincoln.86xy@gmail.com,"[FLINK-31489][sql-gateway][tests] Fix instable test OperationManagerTest.testCloseOperation
+65,ff08c7b1d7fb9334d624aa74bc5788d4d7ac1edc,lincoln lee,lincoln.86xy@gmail.com,"[FLINK-31489][sql-gateway][tests] Fix instable test OperationManagerTest.testCloseOperation
 
 This closes #22199.",1,None,fixed
 
-37,4dd762b109003521c38bca147b433b63480ade64,Martijn Visser,mvisser@confluent.io,[hotfix] Sort NOTICE dependencies in alphabetical order,0.2,None,changed
+66,4dd762b109003521c38bca147b433b63480ade64,Martijn Visser,mvisser@confluent.io,[hotfix] Sort NOTICE dependencies in alphabetical order,0.2,None,changed
 
-38,a7605b0f5b0a7b47c0d698912e105ffafd76e9aa,Martijn Visser,mvisser@confluent.io,"[FLINK-31485][Confluent Avro] Change packaging of Schema Registry so that by default everything is included.
+67,a7605b0f5b0a7b47c0d698912e105ffafd76e9aa,Martijn Visser,mvisser@confluent.io,"[FLINK-31485][Confluent Avro] Change packaging of Schema Registry so that by default everything is included.
 
 This resolves the accidental exclusion of Guava, causing Avro Confluent Schema Registry to fail.",0.7,None,changed
 
-39,768c09c5183c47692bd4af6968fd0381b7a0a006,Jark Wu,jark@apache.org,"[FLINK-31450][table] Move execution logic of UseOperations out from TableEnvironmentImpl
+68,768c09c5183c47692bd4af6968fd0381b7a0a006,Jark Wu,jark@apache.org,"[FLINK-31450][table] Move execution logic of UseOperations out from TableEnvironmentImpl
 
 This closes #22175",0.7,None,changed
 
-40,d95f69bb459b5efb44c7cd468485d85cd08aef50,Jark Wu,jark@apache.org,"[FLINK-31450][table] Introduce ExecutableOperation for operations to execute
+69,d95f69bb459b5efb44c7cd468485d85cd08aef50,Jark Wu,jark@apache.org,"[FLINK-31450][table] Introduce ExecutableOperation for operations to execute
 
 This closes #22175",0.7,None,changed
 
-41,6f9bca971f69525f9be7779121706bfb5756089d,felixzh,felixzh2020@126.com,"[FLINK-31321][Deployment/YARN] Yarn-session mode, securityConfiguration supports dynamic configuration
+70,6f9bca971f69525f9be7779121706bfb5756089d,felixzh,felixzh2020@126.com,"[FLINK-31321][Deployment/YARN] Yarn-session mode, securityConfiguration supports dynamic configuration
 
 This closes #22119",0.7,None,changed
 
-42,81f77a9d0e7f49a1786eb21e0adb1290306b89c5,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-30896][table] Reduce usage of CatalogViewImpl in table-planner,1,None,changed
+71,81f77a9d0e7f49a1786eb21e0adb1290306b89c5,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-30896][table] Reduce usage of CatalogViewImpl in table-planner,1,None,changed
 
-43,e42d7089b24f4e93e980ce724faf00341660bcd6,Sergey Nuyanzin,snuyanzin@gmail.com,"[FLINK-22484][table] Add built-in MAP_KEYS, MAP_VALUES, MAP_FROM_ARRAYS",0.7,None,added
+72,e42d7089b24f4e93e980ce724faf00341660bcd6,Sergey Nuyanzin,snuyanzin@gmail.com,"[FLINK-22484][table] Add built-in MAP_KEYS, MAP_VALUES, MAP_FROM_ARRAYS",0.7,None,added
 
-44,db3a0a59519b279d016489e1bf29927a4f62a6ed,slfan1989,louj1988@@,"[FLINK-31480][yarn] Fix typo in YarnClusterDescriptor.
+73,db3a0a59519b279d016489e1bf29927a4f62a6ed,slfan1989,louj1988@@,"[FLINK-31480][yarn] Fix typo in YarnClusterDescriptor.
 
 This closes #22189",0.7,None,fixed
 
-45,a84de2ca4a9239bccb0d28c9bb6f841de1879bf9,David Moravek,dmvk@apache.org,"[FLINK-31317] Introduce JobResourceRequirements and JobVertexResourceRequirements data structures.
+74,a84de2ca4a9239bccb0d28c9bb6f841de1879bf9,David Moravek,dmvk@apache.org,"[FLINK-31317] Introduce JobResourceRequirements and JobVertexResourceRequirements data structures.
 
 Signed-off-by: David Moravek <dmvk@apache.org>",0.7,None,changed
 
-46,f3955cff98439eeeb5dcb55f9a5040722652b207,David Moravek,dmvk@apache.org,"[hotfix] Mark InstantiationUtil#readObjectFromConfig as @Nullable.
+75,f3955cff98439eeeb5dcb55f9a5040722652b207,David Moravek,dmvk@apache.org,"[hotfix] Mark InstantiationUtil#readObjectFromConfig as @Nullable.
 
 Signed-off-by: David Moravek <dmvk@apache.org>",0.7,None,changed
 
-47,cf33d934366a172ace8104b43c7ce833c334b951,Leonard Xu,xbjtdcq@gmail.com,[hotfix][docs][docs-zh] Use markdown SQL template for SQL functions examples,1,None,changed
+76,cf33d934366a172ace8104b43c7ce833c334b951,Leonard Xu,xbjtdcq@gmail.com,[hotfix][docs][docs-zh] Use markdown SQL template for SQL functions examples,1,None,changed
 
-48,f3ec5733f4fbc85d7a6bd27484ac10185a36b1ed,Leonard Xu,xbjtdcq@gmail.com,"[FLINK-30959][hotfix][docs] Improve the example style of UNIX_TIMESTAMP function
+77,f3ec5733f4fbc85d7a6bd27484ac10185a36b1ed,Leonard Xu,xbjtdcq@gmail.com,"[FLINK-30959][hotfix][docs] Improve the example style of UNIX_TIMESTAMP function
 
 This closes #22170",0.7,None,fixed
 
-49,99b5041a98366100467eb27c73ede2aa93f35bab,Hang Ruan,ruanhang1993@hotmail.com,[FLINK-30959][table][docs] Improve the documentation of UNIX_TIMESTAMP function for different argument formats,1,None,fixed
+78,99b5041a98366100467eb27c73ede2aa93f35bab,Hang Ruan,ruanhang1993@hotmail.com,[FLINK-30959][table][docs] Improve the documentation of UNIX_TIMESTAMP function for different argument formats,1,None,fixed
 
-50,7fccd5992f6222df62ed850542ef50b0714cd647,Weijie Guo,reswqa@163.com,"[FLINK-31420][test] Fix unstable test ThreadInfoRequestCoordinatorTest#testShutDown.
+79,7fccd5992f6222df62ed850542ef50b0714cd647,Weijie Guo,reswqa@163.com,"[FLINK-31420][test] Fix unstable test ThreadInfoRequestCoordinatorTest#testShutDown.
 
 testShutDown using two gateways contains a timeout gateway but expected all request futures not done before shutdown. If the timeout reached, this future will be failed, result in request future to be done.
 
 This closes #22171",0.7,None,fixed
 
-51,c3f9142303a953f5048ed037c9efa417bacd94e5,Weijie Guo,reswqa@163.com,[hotfix] Let ThreadInfoRequestCoordinatorTest more comply with the specifications of Junit and AssertJ.,0.7,None,changed
+80,c3f9142303a953f5048ed037c9efa417bacd94e5,Weijie Guo,reswqa@163.com,[hotfix] Let ThreadInfoRequestCoordinatorTest more comply with the specifications of Junit and AssertJ.,0.7,None,changed
 
-52,e818c11d104623f47b7568e39759a285a357a1e9,Fruzsina Nagy,37060328+fruska@users.noreply.github.com,[FLINK-31085][formats] Add schema option to confluent registry avro formats,1,None,added
+81,e818c11d104623f47b7568e39759a285a357a1e9,Fruzsina Nagy,37060328+fruska@users.noreply.github.com,[FLINK-31085][formats] Add schema option to confluent registry avro formats,1,None,added
 
-53,8990822bd77d70f3249e1220a853e16dadd8ef54,zhengyunhong.zyh,337361684@qq.com,"[FLINK-31273][table-planner] Fix left join with IS_NULL filter be wrongly pushed down and get wrong join results
+82,8990822bd77d70f3249e1220a853e16dadd8ef54,zhengyunhong.zyh,337361684@qq.com,"[FLINK-31273][table-planner] Fix left join with IS_NULL filter be wrongly pushed down and get wrong join results
 
 This closes #22049",0.7,None,fixed
 
-54,cbfeef64e9be5793bec30585a355ed06399b30ed,wangfeifan,zoltar9264@163.com,[FLINK-31414][checkpointing] make BarrierAlignmentUtil.DelayableTimer not hidden exception,0.7,None,changed
+83,cbfeef64e9be5793bec30585a355ed06399b30ed,wangfeifan,zoltar9264@163.com,[FLINK-31414][checkpointing] make BarrierAlignmentUtil.DelayableTimer not hidden exception,0.7,None,changed
 
-55,0848815d41ac5bbafa230e378af049a20306ae76,Junrui Lee,jrlee.ljr@gmail.com,"[FLINK-31437][hbase][docs] Fix wrong key 'lookup.cache.caching-missing-key' in 'hbase.md'
+84,0848815d41ac5bbafa230e378af049a20306ae76,Junrui Lee,jrlee.ljr@gmail.com,"[FLINK-31437][hbase][docs] Fix wrong key 'lookup.cache.caching-missing-key' in 'hbase.md'
 
 This closes #22181. 
 
 Co-authored-by: xzw <xuzhiwen@deepexi.com>",0.7,None,fixed
 
-56,617fcaa60743cf48afb43c867450ec5e5aa1d846,Jark Wu,jark@apache.org,[hotfix][table] Fix plan tests for the new PushCalcPastChangelogNormalizeRule,0.7,None,fixed
+85,617fcaa60743cf48afb43c867450ec5e5aa1d846,Jark Wu,jark@apache.org,[hotfix][table] Fix plan tests for the new PushCalcPastChangelogNormalizeRule,0.7,None,fixed
 
-57,1b262d5a85db9fe6df7ca0a9d910cf63a274ac16,Jark Wu,jark@apache.org,"[FLINK-30129][table] Rename PushFilterPastChangelogNormalizeRule to PushCalcPastChangelogNormalizeRule
-
-This closes #22156",0.7,None,changed
-
-58,3f53ef1fad8f45083cbad34eaaf2a67fb7fa9df4,Jark Wu,jark@apache.org,"[FLINK-30129][table] Push projection through ChangelogNormalize
+86,1b262d5a85db9fe6df7ca0a9d910cf63a274ac16,Jark Wu,jark@apache.org,"[FLINK-30129][table] Rename PushFilterPastChangelogNormalizeRule to PushCalcPastChangelogNormalizeRule
 
 This closes #22156",0.7,None,changed
 
-59,17b805bc9afcca8776a46c15c3785d9df067ec7e,Etienne Chauchot,echauchot@apache.org,[FLINK-30802][connectors] Document that SplitReader#fetch() may interrupt&resume,0.7,None,changed
+87,3f53ef1fad8f45083cbad34eaaf2a67fb7fa9df4,Jark Wu,jark@apache.org,"[FLINK-30129][table] Push projection through ChangelogNormalize
 
-60,f949fe4eb1b83a324b9139d41a6db5976a8db539,Yuxin Tan,tanyuxinwork@gmail.com,"[FLINK-31418][network][tests] Fix unstable test case SortMergeResultPartitionReadSchedulerTest.testRequestBufferTimeout
+This closes #22156",0.7,None,changed
+
+88,17b805bc9afcca8776a46c15c3785d9df067ec7e,Etienne Chauchot,echauchot@apache.org,[FLINK-30802][connectors] Document that SplitReader#fetch() may interrupt&resume,0.7,None,changed
+
+89,f949fe4eb1b83a324b9139d41a6db5976a8db539,Yuxin Tan,tanyuxinwork@gmail.com,"[FLINK-31418][network][tests] Fix unstable test case SortMergeResultPartitionReadSchedulerTest.testRequestBufferTimeout
 
 This closes #22173.",0.2,None,fixed
 
-61,6149d156a23244bea3ae50a678b35159ba53dcfb,Hongshun Wang,loserwang1024@gmail.com,[FLINK-31208][Connectors / Kafka] KafkaSourceReader overrides meaninglessly a method(pauseOrResumeSplits),0.7,None,changed
+90,6149d156a23244bea3ae50a678b35159ba53dcfb,Hongshun Wang,loserwang1024@gmail.com,[FLINK-31208][Connectors / Kafka] KafkaSourceReader overrides meaninglessly a method(pauseOrResumeSplits),0.7,None,changed
 
-62,63f5555d315fdc9bef29e37021855860468bb093,Jark Wu,jark@apache.org,[FLINK-30748][docs] Improve the translation of Queries Overview page,0.7,None,fixed
+91,63f5555d315fdc9bef29e37021855860468bb093,Jark Wu,jark@apache.org,[FLINK-30748][docs] Improve the translation of Queries Overview page,0.7,None,fixed
 
-63,5d15191bbd9d3e9c357c3d3d3d2e410361510022,HaiYang Chen,690732060@qq.com,"[FLINK-30748][docs] Translate ""Overview"" page of ""Queries"" into Chinese
+92,5d15191bbd9d3e9c357c3d3d3d2e410361510022,HaiYang Chen,690732060@qq.com,"[FLINK-30748][docs] Translate ""Overview"" page of ""Queries"" into Chinese
 
 This closes #21726",0.7,None,changed
 
-64,a94b556e6a02dcc9220a9e19acd62c230550bf27,Jark Wu,jark@apache.org,"[FLINK-30694][docs] Improve the translation of ""Windowing TVF"" page",0.7,None,fixed
+93,a94b556e6a02dcc9220a9e19acd62c230550bf27,Jark Wu,jark@apache.org,"[FLINK-30694][docs] Improve the translation of ""Windowing TVF"" page",0.7,None,fixed
 
-65,471b6ce8cba957787713dc03a94039bad673ef82,Jark Wu,jark@apache.org,[FLINK-30694][docs] Fix REF_NOT_FOUND build error for docs,1,None,fixed
+94,471b6ce8cba957787713dc03a94039bad673ef82,Jark Wu,jark@apache.org,[FLINK-30694][docs] Fix REF_NOT_FOUND build error for docs,1,None,fixed
 
-66,7b03113461c36d06c0643d9bdca7055071d41429,HaiYang Chen,690732060@qq.com,"[FLINK-30694][docs]Translate ""Windowing TVF"" page of ""Queries"" into Chinese
+95,7b03113461c36d06c0643d9bdca7055071d41429,HaiYang Chen,690732060@qq.com,"[FLINK-30694][docs]Translate ""Windowing TVF"" page of ""Queries"" into Chinese
 
 This closes #21823",0.7,None,changed
 
-67,20dc237f1b6eb32ef5344b5ece0a1e3a008e8bfd,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-31369][sql-gateway] Harden modifiers in tests for sql-gateway module,1,None,changed
+96,20dc237f1b6eb32ef5344b5ece0a1e3a008e8bfd,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-31369][sql-gateway] Harden modifiers in tests for sql-gateway module,1,None,changed
 
-68,a8848f8d6aa700e0325e79a8f7b44f611d287cb3,K.I. (Dennis) Jung,inylove82@gmail.com,"[FLINK-31227][docs] Remove Scala suffix for ORC and Parquet format download links on the the FileSystem documentation. This closes #22039
+97,a8848f8d6aa700e0325e79a8f7b44f611d287cb3,K.I. (Dennis) Jung,inylove82@gmail.com,"[FLINK-31227][docs] Remove Scala suffix for ORC and Parquet format download links on the the FileSystem documentation. This closes #22039
 
 Remove Scala suffix for ORC and Parquet format download links on the the FileSystem documentation",0.7,None,remove
 
-69,2bb10e5ef0c762d213c5f02f3895471332fd872a,Jark Wu,jark@apache.org,"[FLINK-30747][docs] Improve the translation of ""Window Deduplication"" page",0.7,None,fixed
+98,2bb10e5ef0c762d213c5f02f3895471332fd872a,Jark Wu,jark@apache.org,"[FLINK-30747][docs] Improve the translation of ""Window Deduplication"" page",0.7,None,fixed
 
-70,c5b68ebef4d37adae61186e6e75e7ffeefa9eec0,HaiYang Chen,690732060@qq.com,"[FLINK-30747][docs] Translate ""Window Deduplication"" page of ""Queries"" into Chinese
+99,c5b68ebef4d37adae61186e6e75e7ffeefa9eec0,HaiYang Chen,690732060@qq.com,"[FLINK-30747][docs] Translate ""Window Deduplication"" page of ""Queries"" into Chinese
 
 This closes #21722",0.7,None,changed
 
-71,65ab8e820a3714d2134dfb4c9772a10c998bd45a,Jark Wu,jark@apache.org,"[FLINK-30744][docs] Improve the translation of ""Window Top-N"" page",0.7,None,fixed
+100,65ab8e820a3714d2134dfb4c9772a10c998bd45a,Jark Wu,jark@apache.org,"[FLINK-30744][docs] Improve the translation of ""Window Top-N"" page",0.7,None,fixed
 
-72,369e3b9feac318802eff5d9655157297d963a7c7,HaiYang Chen,690732060@qq.com,"[FLINK-30744][docs-zh] Translate ""Window Top-N"" page of ""Queries""
+101,369e3b9feac318802eff5d9655157297d963a7c7,HaiYang Chen,690732060@qq.com,"[FLINK-30744][docs-zh] Translate ""Window Top-N"" page of ""Queries""
 
 This closes #21824",0.7,None,changed
 
-73,231df6276f172434e81a18ad4234557b2d1d711a,Wencong Liu,liuwenclever@163.com,"[FLINK-31378][doc] Fix dev/configuration overview.md
+102,231df6276f172434e81a18ad4234557b2d1d711a,Wencong Liu,liuwenclever@163.com,"[FLINK-31378][doc] Fix dev/configuration overview.md
 
 This closes #22163",0.7,None,fixed
 
-74,270e6fc2094e2c879d32cacb3e096bf0eda53148,Jark Wu,jark@apache.org,"[hotfix][table] Printing column names in a deterministic order
+103,270e6fc2094e2c879d32cacb3e096bf0eda53148,Jark Wu,jark@apache.org,"[hotfix][table] Printing column names in a deterministic order
 
 This fixes unstable case of SqlDdlToOperationConverterTest#testCreateTableLikeInvalidPartition",1,None,changed
 
-75,d4a9a749310f33618b942dd0258855642001e0d3,Jark Wu,jark@apache.org,"[FLINK-25347][table] Replace deprecated TableSchema with Schema in MergeTableLikeUtil
+104,d4a9a749310f33618b942dd0258855642001e0d3,Jark Wu,jark@apache.org,"[FLINK-25347][table] Replace deprecated TableSchema with Schema in MergeTableLikeUtil
 
 This closes #22158",0.2,None,changed
 
-76,981ef8bd874ac5c28512d8abfa17adcefa44e9bb,yuxia Luo,luoyuxia@alumni.sjtu.edu.cn,"[FLINK-30659][hive] Drop flink-sql-parser-hive module (#22106)
+105,981ef8bd874ac5c28512d8abfa17adcefa44e9bb,yuxia Luo,luoyuxia@alumni.sjtu.edu.cn,"[FLINK-30659][hive] Drop flink-sql-parser-hive module (#22106)
 
 * [FLINK-30659][hive] Drop flink-sql-parser-hive module",0.7,None,changed
 
-77,eb83d854629c676becdce50ce25eb543b8b2e28a,Marton Balassi,marton@apple.com,[FLINK-31401][streaming][tests] Make parallelism assumption explicit in StreamingJobGraphGeneratorTest,1,None,changed
+106,eb83d854629c676becdce50ce25eb543b8b2e28a,Marton Balassi,marton@apple.com,[FLINK-31401][streaming][tests] Make parallelism assumption explicit in StreamingJobGraphGeneratorTest,1,None,changed
 
-78,a43a63c165ccb37cf0feb5c948943abc73c6f423,Jane Chan,55568005+LadyForest@users.noreply.github.com,"[FLINK-31404][table-planner] Support extracting all mapping of Calc node's input references for StreamNonDeterminisiticUpdatePlanVsitior
+107,a43a63c165ccb37cf0feb5c948943abc73c6f423,Jane Chan,55568005+LadyForest@users.noreply.github.com,"[FLINK-31404][table-planner] Support extracting all mapping of Calc node's input references for StreamNonDeterminisiticUpdatePlanVsitior
 
 This closes #22160",0.7,None,changed
 
-79,b63c65a10bc76b4dadd6ae17305ee1941b773601,Weijie Guo,reswqa@163.com,"[FLINK-31393][runtime] Fix the bug that HsFileDataManager use an incorrect default timeout.
+108,b63c65a10bc76b4dadd6ae17305ee1941b773601,Weijie Guo,reswqa@163.com,"[FLINK-31393][runtime] Fix the bug that HsFileDataManager use an incorrect default timeout.
 
 This closes #22147",0.7,None,fixed
 
-80,e22d164ff710571ff2708568a90a21dee194116a,Jark Wu,jark@apache.org,[FLINK-29743][table] CatalogPropertiesUtil supports de/serializing column comment (#22131),0.7,None,changed
+109,e22d164ff710571ff2708568a90a21dee194116a,Jark Wu,jark@apache.org,[FLINK-29743][table] CatalogPropertiesUtil supports de/serializing column comment (#22131),0.7,None,changed
 
-81,a7b0c2707518a8b7f589e50fa4eafad791d7179f,slfan1989,55643692+slfan1989@users.noreply.github.com,"[FLINK-31402][yarn] Remove usage of deprecated ConverterUtils method.
+110,a7b0c2707518a8b7f589e50fa4eafad791d7179f,slfan1989,55643692+slfan1989@users.noreply.github.com,"[FLINK-31402][yarn] Remove usage of deprecated ConverterUtils method.
 
 This closes #22159",0.7,None,remove
 
-82,624c196f1ccee297212b7c9dbb00bd5147fef737,kevin.cyj,kevin.cyj@alibaba-inc.com,"[FLINK-31386][network] Fix the potential deadlock issue of blocking shuffle
+111,624c196f1ccee297212b7c9dbb00bd5147fef737,kevin.cyj,kevin.cyj@alibaba-inc.com,"[FLINK-31386][network] Fix the potential deadlock issue of blocking shuffle
 
 Currently, the SortMergeResultPartition may allocate more network buffers than the guaranteed size of the LocalBufferPool. As a result, some result partitions may need to wait other result partitions to release the over-allocated network buffers to continue. However, the result partitions which have allocated more than guaranteed buffers relies on the processing of input data to trigger data spilling and buffer recycling. The input data further relies on batch reading buffers used by the SortMergeResultPartitionReadScheduler which may already taken by those blocked result partitions that are waiting for buffers. Then deadlock occurs. This patch fixes the deadlock issue by reserving the guaranteed buffers on initializing.
 
 This closes #22148.",0.2,None,fixed
 
-83,8424ed2c02e2cc23003919eda53c0fda9e9b353a,David Moravek,dmvk@apache.org,"[FLINK-31385] Introduce extended Assertj matchers for completable futures, that don't rely on timeouts.
+112,8424ed2c02e2cc23003919eda53c0fda9e9b353a,David Moravek,dmvk@apache.org,"[FLINK-31385] Introduce extended Assertj matchers for completable futures, that don't rely on timeouts.
 
 Signed-off-by: David Moravek <dmvk@apache.org>",0.7,None,changed
 
-84,49929f844975418850ec0334adf4d06c7c895d08,Yuxin Tan,tanyuxinwork@gmail.com,"[FLINK-31396][network] Replace the nano time by milliseconds as the timeout time for batch read buffer pool
+113,49929f844975418850ec0334adf4d06c7c895d08,Yuxin Tan,tanyuxinwork@gmail.com,"[FLINK-31396][network] Replace the nano time by milliseconds as the timeout time for batch read buffer pool
 
 This closes #22151",0.7,None,changed
 
-85,0b497c56dbdff0d69a39dcf7048b7aefb5c8b9e4,David Moravek,dmvk@apache.org,[FLINK-31387][streaming-java] Harden StreamTaskCancellationTest#testCancelTaskShouldPreventAdditionalProcessingTimeTimersFromBeingFired by waiting for the first timer to be fired.,0.7,None,changed
+114,0b497c56dbdff0d69a39dcf7048b7aefb5c8b9e4,David Moravek,dmvk@apache.org,[FLINK-31387][streaming-java] Harden StreamTaskCancellationTest#testCancelTaskShouldPreventAdditionalProcessingTimeTimersFromBeingFired by waiting for the first timer to be fired.,0.7,None,changed
 
-86,6d79f6fc52bcd338d0528d19cd1f7289d8e339da,JunRuiLee,jrlee.ljr@gmail.com,"[FLINK-31144][coordination] Ignore the input locations of a ConsumePartitionGroup if it has too many consumers
+115,6d79f6fc52bcd338d0528d19cd1f7289d8e339da,JunRuiLee,jrlee.ljr@gmail.com,"[FLINK-31144][coordination] Ignore the input locations of a ConsumePartitionGroup if it has too many consumers
 
 This closes #22098.",0.7,None,changed
 
-87,84d000cf47b833625fbd5b5f72e48963b3156103,David Moravek,dmvk@apache.org,[FLINK-31383] Add support for documenting additionProperties of the REST API payloads.,1,None,added
+116,84d000cf47b833625fbd5b5f72e48963b3156103,David Moravek,dmvk@apache.org,[FLINK-31383] Add support for documenting additionProperties of the REST API payloads.,1,None,added
 
-88,3577edf57f55177eb5af6ddf1179267e15c69e2f,Sergey Nuyanzin,snuyanzin@gmail.com,[hotfix] Apply spotless for AbstractHaServicesTest,0.7,None,changed
+117,3577edf57f55177eb5af6ddf1179267e15c69e2f,Sergey Nuyanzin,snuyanzin@gmail.com,[hotfix] Apply spotless for AbstractHaServicesTest,0.7,None,changed
 
-89,10dce7cf0a04b80d7416a5760e1a6dbc430d9f88,Jacky Lau,liuyongvs@gmail.com,"[FLINK-31166][table] array_contains does not support null argument when the array element type is not null
+118,10dce7cf0a04b80d7416a5760e1a6dbc430d9f88,Jacky Lau,liuyongvs@gmail.com,"[FLINK-31166][table] array_contains does not support null argument when the array element type is not null
 
 [FLINK-31166][table] Fix array_contains does not support null argument when the array element type is not null.",0.7,None,fixed
 
-90,5fef51f60085306f2acc8c8d630fe08e64004fc3,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-31300][table] TRY_CAST for constructed types,1,None,changed
+119,5fef51f60085306f2acc8c8d630fe08e64004fc3,Sergey Nuyanzin,snuyanzin@gmail.com,[FLINK-31300][table] TRY_CAST for constructed types,1,None,changed
 
-91,593cc139ab30bb81ab38d94b7b697d00eaaecada,Weijie Guo,reswqa@163.com,"Revert ""[FLINK-30513][runtime] Cleanup HA storage path on cluster termination""
+120,593cc139ab30bb81ab38d94b7b697d00eaaecada,Weijie Guo,reswqa@163.com,"Revert ""[FLINK-30513][runtime] Cleanup HA storage path on cluster termination""
 
 This reverts commit 13779ab8e4f5539ca311d9f233d031d818af6450.",0.7,None,changed
 
-92,03e4f8eb13d8263a4a1f4947f5d1cb55a3d368e2,David Moravek,dmvk@apache.org,[FLINK-31370] Prevent more timers from being fired if the StreamTask has been canceled.,0.7,None,changed
+121,03e4f8eb13d8263a4a1f4947f5d1cb55a3d368e2,David Moravek,dmvk@apache.org,[FLINK-31370] Prevent more timers from being fired if the StreamTask has been canceled.,0.7,None,changed
 
-93,13779ab8e4f5539ca311d9f233d031d818af6450,Zhanghao Chen,m1a2@outlook.com,"[FLINK-30513][runtime] Cleanup HA storage path on cluster termination
+122,13779ab8e4f5539ca311d9f233d031d818af6450,Zhanghao Chen,m1a2@outlook.com,"[FLINK-30513][runtime] Cleanup HA storage path on cluster termination
 
 This closes #21673",0.7,None,changed
 
-94,eb66e6d18ec628fba5129b2bde1af264d5085eea,Zhanghao Chen,m1a2@outlook.com,[hotfix] Migrate AbstractHaServicesTest to JUnit 5 and AssertJ.,0.7,None,changed
+123,eb66e6d18ec628fba5129b2bde1af264d5085eea,Zhanghao Chen,m1a2@outlook.com,[hotfix] Migrate AbstractHaServicesTest to JUnit 5 and AssertJ.,0.7,None,changed
 
-95,384d6b10a2d69b9384052c3d4c3ad82babd201d1,Shengkai,1059623455@qq.com,"[FLINK-31351][sql-gateway] Don't stop the stuck thread by force
+124,384d6b10a2d69b9384052c3d4c3ad82babd201d1,Shengkai,1059623455@qq.com,"[FLINK-31351][sql-gateway] Don't stop the stuck thread by force
 
 This closes #22127",0.7,None,changed
 
-96,d04d727958b641c041d593618de6a40fd62d5338,Etienne Chauchot,echauchot@apache.org,"[FLINK-30113] Implement state compression for broadcast and regular operator states (#21636)
+125,d04d727958b641c041d593618de6a40fd62d5338,Etienne Chauchot,echauchot@apache.org,"[FLINK-30113] Implement state compression for broadcast and regular operator states (#21636)
 
 Add a new snapshot format version 6 compatible with the previous versions that adds a boolean for snapshot compression
 At snapshot time: depending on user configuration, write Snappy compressed regular and broadcast operator states (but not the snapshot meta info) and write the compression boolean accordingly
 At restoration time: depending on the read compression boolean, read the snapshots as compressed or not.",1,None,added
 
-97,75d94108a8e7dc51825ff9063c2c3f4649bf0eb4,Jacky Lau,liuyongvs@gmail.com,"[FLINK-31279][table] Fix MULTIPLY(TIMES) function doesn't support interval types
+126,75d94108a8e7dc51825ff9063c2c3f4649bf0eb4,Jacky Lau,liuyongvs@gmail.com,"[FLINK-31279][table] Fix MULTIPLY(TIMES) function doesn't support interval types
 
 This closes #22050",0.7,None,fixed
 
-98,ed30a4f906f35654745ca2f694b540ed50e0e14e,Wencong Liu,liuwenclever@163.com,[FLINK-30289] Make the backpressure tab could be sort by busy/backpressure/idle seperately,0.7,None,changed
+127,ed30a4f906f35654745ca2f694b540ed50e0e14e,Wencong Liu,liuwenclever@163.com,[FLINK-30289] Make the backpressure tab could be sort by busy/backpressure/idle seperately,0.7,None,changed
 
-99,7c5b7be5bc165a9799f10b5761a6ff15edee43b6,Wencong Liu,liuwenclever@163.com,[FLINK-31298] fix ConnectionUtilsTest.testFindConnectingAddressWhenGetLocalHostThrows swallows IllegalArgumentException,1,None,fixed
+128,7c5b7be5bc165a9799f10b5761a6ff15edee43b6,Wencong Liu,liuwenclever@163.com,[FLINK-31298] fix ConnectionUtilsTest.testFindConnectingAddressWhenGetLocalHostThrows swallows IllegalArgumentException,1,None,fixed

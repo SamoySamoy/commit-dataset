@@ -21,7 +21,6 @@ def calculate_important_score(text):
     if length <= 3 and score <= 1:
         return False
     return score >= 0
-
 def classify(text):
     # define pattern for each type
     added = ["added", "feat", "add", "feated", "feature", "feat:", "new"]
@@ -52,7 +51,7 @@ def crawl_commits(repo_owner, repo_name): # need fixed to crawl all commits one 
     api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits"
     headers = {"Accept": "application/vnd.github.v3+json"}
     params = {"per_page": 100}  # Number of commits to fetch per page
-    auth_token = "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"
+    auth_token = "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"
 
     # Make API request to get commits
     response = requests.get(api_url, headers=headers, params=params, auth=(auth_token, ""))
@@ -64,7 +63,7 @@ def expand_dataset(commits, file):
     # find the current id (number of rows)
     with open(file, mode="r", newline="") as csv_file:
         reader = csv.reader(csv_file)
-        cur_id = sum(1 for row in reader) - 1
+        cur_id = (sum(1 for row in reader) - 1) // 2
 
     # add new data to dataset
     with open(file, mode="a", newline="") as csv_file:
