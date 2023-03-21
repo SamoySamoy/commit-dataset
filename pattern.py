@@ -21,4 +21,33 @@ bot_message_patterns = [re.compile(r"\[skip ci\]", re.IGNORECASE),
                 re.compile(r"merge", re.IGNORECASE),
                 re.compile(r"gitlab-ci\.yml", re.IGNORECASE)]
 
+added_pattern = [re.compile(r"feat", re.IGNORECASE),
+                 re.compile(r"add", re.IGNORECASE),
+                 re.compile(r"feature", re.IGNORECASE)
+]
+
+fixed_pattern = [
+                 re.compile(r"fix", re.IGNORECASE),
+                 re.compile(r"bug", re.IGNORECASE)
+]
+
+changed_pattern = [
+                re.compile(r"change", re.IGNORECASE),
+                re.compile(r"changed", re.IGNORECASE),
+                re.compile(r"refactor", re.IGNORECASE),
+                re.compile(r"optimiz", re.IGNORECASE),
+                re.compile(r"update", re.IGNORECASE)
+]
+
+removed_pattern = [
+                re.compile(r"remove", re.IGNORECASE),
+                re.compile(r"delete", re.IGNORECASE)
+]
+
+security_pattern = [
+                re.compile(r"auth", re.IGNORECASE),
+                re.compile(r"security", re.IGNORECASE),
+                re.compile(r"password", re.IGNORECASE)
+
+]
 

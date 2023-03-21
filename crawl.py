@@ -22,6 +22,29 @@ def calculate_important_score(text):
         return False
     return score >= 0
 
+def classify(text):
+    # define pattern for each type
+    added = ["added", "feat", "add", "feated", "feature", "feat:", "new"]
+    fixed = ["fixed", "fix", "fix:", "bug", "improve", "optimize", "broken"]
+    changed = ["changed", "change", "refactor","update", "breaking", "upgrade"]
+    removed = ["remove", "delete", "remove:", "removed", "unused", "duplicate"]
+    security = ["security", "authentication", "authenticate", "password"]
+    # join them for checking
+    types = [security, removed, fixed, added, changed]
+
+    doc = nlp(text)
+    for token in doc:
+        for type in types:
+            if str(token).lower() in type:
+                return type[0]
+
+    # suppose that we haven't figure out type of commit, consider it is changed or added
+    if doc[0].pos_ in ["NOUN", "VERB"]:
+        return "added"
+    else:
+        return "changed"
+
+
 def crawl_commits(repo_owner, repo_name): # need fixed to crawl all commits one time
     # Set up variables
     repo_owner = repo_owner
@@ -29,7 +52,7 @@ def crawl_commits(repo_owner, repo_name): # need fixed to crawl all commits one 
     api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits"
     headers = {"Accept": "application/vnd.github.v3+json"}
     params = {"per_page": 100}  # Number of commits to fetch per page
-    auth_token = "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"
+    auth_token = "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"
 
     # Make API request to get commits
     response = requests.get(api_url, headers=headers, params=params, auth=(auth_token, ""))
@@ -54,7 +77,7 @@ def expand_dataset(commits, file):
             author_email = commit["commit"]["author"]["email"]
             message = commit["commit"]["message"]
             summa = "None"
-            type = "None"
+            type = classify(message)
 
             # Find important ratio, default by 1
             # If we check that commit is from bot, decrease 0.3
@@ -83,11 +106,12 @@ def expand_dataset(commits, file):
                     is_important -= 0.3
                 else:
                     is_important -= 0.5
-            if is_important == 1:
+            if type == "added":
                 print(message)
             new_row = [id, sha, author_name, author_email, message, round(is_important,1), summa, type]
             writer.writerow([])
             writer.writerow(new_row)
+
 
 
 
