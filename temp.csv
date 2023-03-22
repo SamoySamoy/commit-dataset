@@ -1,0 +1,708 @@
+
+0,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-03-19),0.2,None,changed
+
+1,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-03-12),0.2,None,changed
+
+2,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-03-05),0.2,None,changed
+
+3,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-02-26),0.2,None,changed
+
+4,Theodorus Clarence,theodorusclarence@gmail.com,feat: update clsx clsxm snippets to array,1,None,added
+
+5,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-02-19),0.2,None,changed
+
+6,Theodorus Clarence,theodorusclarence@gmail.com,feat: update npmrc to 18.14.0,1,None,added
+
+7,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-02-12),0.2,None,changed
+
+8,Adham,adhamtarek291@gmail.com,"fix: image in components page
+
+see here image not found
+https://tsnext-tw.thcl.dev/components",1,None,fixed
+
+9,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-02-05),0.2,None,changed
+
+10,Theodorus Clarence,theodorusclarence@gmail.com,feat: update cancel workflow to native,1,None,added
+
+11,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-01-29),0.2,None,changed
+
+12,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-01-22),0.2,None,changed
+
+13,Theodorus Clarence,theodorusclarence@gmail.com,fix: footer overlaps with content,1,None,fixed
+
+14,Theodorus Clarence,theodorusclarence@gmail.com,ci: change autolink to body style,1,None,changed
+
+15,Theodorus Clarence,theodorusclarence@gmail.com,style: run prettier,1,None,added
+
+16,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-01-15),0.2,None,changed
+
+17,Theodorus Clarence,theodorusclarence@gmail.com,fix: issue autolink not working,1,None,fixed
+
+18,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-01-08),0.2,None,changed
+
+19,Theodorus Clarence,theodorusclarence@gmail.com,refactor: use array const instead of enum,1,None,changed
+
+20,Theodorus Clarence,theodorusclarence@gmail.com,style: run prettier,1,None,added
+
+21,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2023-01-01),0.2,None,changed
+
+22,Theodorus Clarence,theodorusclarence@gmail.com,docs: update readme badge,1,None,changed
+
+23,rizqitsani,rizqitsani@gmail.com,chore: add pr template,0.7,None,added
+
+24,Theodorus Clarence,theodorusclarence@gmail.com,feat: add button & link components with new style,1,None,added
+
+25,Theodorus Clarence,theodorusclarence@gmail.com,feat: update _document to new format,1,None,added
+
+26,Theodorus Clarence,theodorusclarence@gmail.com,docs: change title in readme for better seo,1,None,changed
+
+27,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-12-25),0.2,None,changed
+
+28,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-12-18),0.2,None,changed
+
+29,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-12-11),0.2,None,changed
+
+30,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-12-04),0.2,None,changed
+
+31,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-11-27),0.2,None,changed
+
+32,Theodorus Clarence,theodorusclarence@gmail.com,chore: update funding links,0.7,None,changed
+
+33,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-11-20),0.2,None,changed
+
+34,Theodorus Clarence,theodorusclarence@gmail.com,feat: optionalize twitter handle and name,1,None,added
+
+35,Theodorus Clarence,theodorusclarence@gmail.com,feat: change favicon generator default,1,None,added
+
+36,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-11-13),0.2,None,changed
+
+37,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-11-06),0.2,None,changed
+
+38,Theodorus Clarence,theodorusclarence@gmail.com,docs: update readme to next 13,1,None,changed
+
+39,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-11-01),0.2,None,changed
+
+40,Theodorus Clarence,theodorusclarence@gmail.com,chore: upgrade to next 13,0.2,None,changed
+
+41,Theodorus Clarence,theodorusclarence@gmail.com,ci: turn off unescaped entities eslint rule,0.7,None,changed
+
+42,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-10-02),0.2,None,changed
+
+43,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-09-25),0.2,None,changed
+
+44,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-09-18),0.2,None,changed
+
+45,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-09-11),0.2,None,changed
+
+46,Theodorus Clarence,theodorusclarence@gmail.com,style: move tests folder inside src,1,None,added
+
+47,Agam More,agam360@gmail.com,"test: add jest example for 404 page
+
+Co-authored-by: Agam More <agam@masterschool.com>",1,None,added
+
+48,Theodorus Clarence,theodorusclarence@gmail.com,feat: add local and session storage helper,1,None,added
+
+49,Theodorus Clarence,theodorusclarence@gmail.com,chore: change napi snippets to handler,0.7,None,changed
+
+50,Torrance Yang,torrance.yang@ribbonhome.com,ci: set lint-staged to run at every level,0.7,None,changed
+
+51,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-09-04),0.2,None,changed
+
+52,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-08-28),0.2,None,changed
+
+53,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-08-21),0.2,None,changed
+
+54,Theodorus Clarence,theodorusclarence@gmail.com,fix: favicon.ico not found,1,None,fixed
+
+55,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-08-14),0.2,None,changed
+
+56,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-08-07),0.2,None,changed
+
+57,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-07-31),0.2,None,changed
+
+58,Theodorus Clarence,theodorusclarence@gmail.com,docs: add funding info,1,None,added
+
+59,Theodorus Clarence,theodorusclarence@gmail.com,docs: add create-next-app to readme,1,None,added
+
+60,Theodorus Clarence,theodorusclarence@gmail.com,docs: change create-next-app to degit,1,None,changed
+
+61,Theodorus Clarence,theodorusclarence@gmail.com,feat: add manual trigger as release default,1,None,added
+
+62,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-07-24),0.2,None,changed
+
+63,Theodorus Clarence,theodorusclarence@gmail.com,feat: add logger lib,1,None,added
+
+64,Theodorus Clarence,theodorusclarence@gmail.com,feat: change buttons font to medium,1,None,added
+
+65,Theodorus Clarence,theodorusclarence@gmail.com,"fix: release please trigger workflow error
+
+because no event specified, changing to full commented code",1,None,fixed
+
+66,Theodorus Clarence,theodorusclarence@gmail.com,chore: release 0.5.4,0.2,None,changed
+
+67,Theodorus Clarence,theodorusclarence@gmail.com,feat: remove standard-version,1,None,added
+
+68,Theodorus Clarence,theodorusclarence@gmail.com,feat: add release-please,1,None,added
+
+69,Theodorus Clarence,theodorusclarence@gmail.com,docs: add project list,1,None,added
+
+70,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-07-17),0.2,None,changed
+
+71,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-07-10),0.2,None,changed
+
+72,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-07-05),0.2,None,changed
+
+73,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-06-28),0.2,None,changed
+
+74,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-06-19),0.2,None,changed
+
+75,Theodorus Clarence,theodorusclarence@gmail.com,feat: remove default og link,1,None,added
+
+76,Theodorus Clarence,theodorusclarence@gmail.com,ci: cache lint and cancel previous,0.7,None,changed
+
+77,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-06-12),0.2,None,changed
+
+78,Theodorus Clarence,theodorusclarence@gmail.com,feat: use new css variable tailwind colors config,1,None,added
+
+79,Theodorus Clarence,theodorusclarence@gmail.com,feat: use 1st party tailwindconfig types,1,None,added
+
+80,Theodorus Clarence,theodorusclarence@gmail.com,chore: upgrade tailwindcss to 3.1,0.2,None,changed
+
+81,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-06-05),0.2,None,changed
+
+82,BESHOI,33860562+BESHOI@users.noreply.github.com,"fix: next-sitemap won't run on windows
+
+https://github.com/iamvishnusankar/next-sitemap/issues/243",1,None,fixed
+
+83,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-05-29),0.2,None,changed
+
+84,Ahmed Essam Khitaby,52051312+ahmedkhitaby@users.noreply.github.com,docs: update react version in readme file,1,None,changed
+
+85,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-05-22),0.2,None,changed
+
+86,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-05-15),0.2,None,changed
+
+87,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-05-08),0.2,None,changed
+
+88,Raynaldo Sutisna,raaynaldo@gmail.com,chore: update vscode setting,0.7,None,changed
+
+89,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-05-01),0.2,None,changed
+
+90,Theodorus Clarence,theodorusclarence@gmail.com,feat: add npmrc,1,None,added
+
+91,Theodorus Clarence,theodorusclarence@gmail.com,feat: upgrade to eslint 8,1,None,added
+
+92,Theodorus Clarence,theodorusclarence@gmail.com,chore: upgrade tailwindcss dev deps,0.7,None,changed
+
+93,Theodorus Clarence,theodorusclarence@gmail.com,chore: upgrade to next-sitemap 2.5,0.2,None,changed
+
+94,Theodorus Clarence,theodorusclarence@gmail.com,chore: upgrade lint-staged,0.7,None,changed
+
+95,Theodorus Clarence,theodorusclarence@gmail.com,chore: upgrade to commitlint 16,0.2,None,changed
+
+96,Theodorus Clarence,theodorusclarence@gmail.com,feat: upgrade to react 18,1,None,added
+
+97,Theodorus Clarence,theodorusclarence@gmail.com,"revert: change NextImage loader to shimmer
+
+This reverts commit 101b64e1b3ae443cafd6b0947fdd1e8303008bac.",0.7,None,changed
+
+98,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-04-16),0.2,None,changed
+
+99,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-03-27),0.2,None,changed
+
+100,Theodorus Clarence,theodorusclarence@gmail.com,test: remove index page,1,None,added
+
+101,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-03-20),0.2,None,changed
+
+102,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-03-13),0.2,None,changed
+
+103,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-03-06),0.2,None,changed
+
+104,Theodorus Clarence,theodorusclarence@gmail.com,feat: use next/jest for testing,1,None,added
+
+105,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-02-27),0.2,None,changed
+
+106,Theodorus Clarence,theodorusclarence@gmail.com,chore: release 0.5.3,0.2,None,changed
+
+107,Theodorus Clarence,theodorusclarence@gmail.com,feat: change NextImage loader to shimmer,1,None,added
+
+108,Theodorus Clarence,theodorusclarence@gmail.com,feat: add Skeleton component,1,None,added
+
+109,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-02-20),0.2,None,changed
+
+110,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,fix: minor typo in _app.tsx comment,1,None,fixed
+
+111,Theodorus Clarence,theodorusclarence@gmail.com,fix: layout declared twice,1,None,fixed
+
+112,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-02-13),0.2,None,changed
+
+113,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-02-06),0.2,None,changed
+
+114,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-01-30),0.2,None,changed
+
+115,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,"chore(package): update next to 12.0.9
+
+Co-authored-by: depfu[bot] <23717796+depfu[bot]@users.noreply.github.com>",0.2,None,changed
+
+116,Theodorus Clarence,theodorusclarence@gmail.com,style: format code with new class order,1,None,added
+
+117,Theodorus Clarence,theodorusclarence@gmail.com,feat: use first class class sorter,1,None,added
+
+118,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-01-23),0.2,None,changed
+
+119,Theodorus Clarence,theodorusclarence@gmail.com,refactor: use new rgba format,1,None,changed
+
+120,Theodorus Clarence,theodorusclarence@gmail.com,docs: add install deps to readme,1,None,added
+
+121,Theodorus Clarence,theodorusclarence@gmail.com,feat(snippet): add scope to regc,0.7,None,added
+
+122,Theodorus Clarence,theodorusclarence@gmail.com,feat(eslint): add curly brace rule,1,None,added
+
+123,Theodorus Clarence,theodorusclarence@gmail.com,"feat(snippets): add rcp, cxm, regc, igsp, isgsp",0.7,None,added
+
+124,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-01-16),0.2,None,changed
+
+125,Theodorus Clarence,theodorusclarence@gmail.com,"chore(package): downgrade eslint-unused to 1.1.5
+
+v2 is only for eslint v8",0.2,None,removed
+
+126,Theodorus Clarence,theodorusclarence@gmail.com,feat: add typography class,1,None,added
+
+127,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-01-09),0.2,None,changed
+
+128,Theodorus Clarence,theodorusclarence@gmail.com,"feat: add support for svgr
+
+no type caveat on the svg jsx",1,None,added
+
+129,Theodorus Clarence,theodorusclarence@gmail.com,chore: add absolute public import,0.7,None,added
+
+130,Theodorus Clarence,theodorusclarence@gmail.com,feat: add forward ref to links,1,None,added
+
+131,Theodorus Clarence,theodorusclarence@gmail.com,refactor: change button class order for clsxm,1,None,changed
+
+132,Theodorus Clarence,theodorusclarence@gmail.com,feat: add forward ref to Button,1,None,added
+
+133,Theodorus Clarence,theodorusclarence@gmail.com,docs: add blog post to readme,1,None,added
+
+134,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2022-01-02),0.2,None,changed
+
+135,Theodorus Clarence,theodorusclarence@gmail.com,chore: add clsxm config to class sorter,0.7,None,added
+
+136,Theodorus Clarence,theodorusclarence@gmail.com,chore: release 0.5.2,0.2,None,changed
+
+137,Theodorus Clarence,theodorusclarence@gmail.com,chore: add generic to useState snippet,0.7,None,added
+
+138,Theodorus Clarence,theodorusclarence@gmail.com,chore: change typecheck script,0.7,None,changed
+
+139,Theodorus Clarence,theodorusclarence@gmail.com,feat: change primary variant to darker shade,1,None,added
+
+140,Theodorus Clarence,theodorusclarence@gmail.com,feat: add PrimaryLink and rename UnderlineLink,0.7,None,added
+
+141,Theodorus Clarence,theodorusclarence@gmail.com,chore(eslint): add unused import autofix,0.7,None,added
+
+142,Theodorus Clarence,theodorusclarence@gmail.com,chore: add more folder to eslint sort import,0.7,None,added
+
+143,Theodorus Clarence,theodorusclarence@gmail.com,style: rename file to clsxm.ts,1,None,added
+
+144,Theodorus Clarence,theodorusclarence@gmail.com,"feat: use clsxm for component
+
+using tailwind merge and clsx to merge overlapping classes",0.7,None,added
+
+145,Theodorus Clarence,theodorusclarence@gmail.com,chore(package): add tailwind-merge,0.7,None,added
+
+146,Theodorus Clarence,theodorusclarence@gmail.com,"feat: add type button to Button
+
+this is added because it defaults to submit
+usually we only need 1 submit button in a form",0.7,None,added
+
+147,Theodorus Clarence,theodorusclarence@gmail.com,refactor: add type and jsdoc,1,None,changed
+
+148,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-12-26),0.2,None,changed
+
+149,Theodorus Clarence,theodorusclarence@gmail.com,chore: release 0.5.1,0.2,None,changed
+
+150,Theodorus Clarence,theodorusclarence@gmail.com,feat: add clsx and fragment snippet wrap,1,None,added
+
+151,Theodorus Clarence,theodorusclarence@gmail.com,chore: release 0.5.0,0.2,None,changed
+
+152,Theodorus Clarence,theodorusclarence@gmail.com,fix: can't use layout fill on NextImage,1,None,fixed
+
+153,Theodorus Clarence,theodorusclarence@gmail.com,feat: center Button & ButtonLink vertically,0.7,None,added
+
+154,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-12-19),0.2,None,changed
+
+155,Theodorus Clarence,theodorusclarence@gmail.com,feat: add Layout component to _app,1,None,added
+
+156,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add expansion pack on readme,1,None,added
+
+157,Theodorus Clarence,theodorusclarence@gmail.com,chore: add 0.4.1 changelog,0.7,None,added
+
+158,Theodorus Clarence,theodorusclarence@gmail.com,feat: update tailwindcss color names,1,None,added
+
+159,Theodorus Clarence,theodorusclarence@gmail.com,chore(package): update to tailwindcss 3.0.1,0.7,None,changed
+
+160,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-12-12),0.2,None,changed
+
+161,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,"chore(package): update next to 12.0.7
+
+Co-authored-by: depfu[bot] <23717796+depfu[bot]@users.noreply.github.com>",0.2,None,changed
+
+162,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-12-05),0.2,None,changed
+
+163,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: change readme header,1,None,changed
+
+164,Theodorus Clarence,theodorusclarence@gmail.com,docs: update changelog indentation,1,None,changed
+
+165,Theodorus Clarence,theodorusclarence@gmail.com,docs: add readme,1,None,added
+
+166,Theodorus Clarence,theodorusclarence@gmail.com,chore: add 0.4.0 changelog,0.7,None,added
+
+167,Theodorus Clarence,theodorusclarence@gmail.com,chore: add 0.3.0 changelog and snippets,0.7,None,added
+
+168,Theodorus Clarence,theodorusclarence@gmail.com,chore: add 0.2.0 changelog,0.7,None,added
+
+169,Theodorus Clarence,theodorusclarence@gmail.com,chore: add 0.1.0 changelog,0.7,None,added
+
+170,Theodorus Clarence,theodorusclarence@gmail.com,feat: add motion safe to animated-underline,1,None,added
+
+171,Theodorus Clarence,theodorusclarence@gmail.com,feat: make ArrowLink to be polymorphic,1,None,added
+
+172,Theodorus Clarence,theodorusclarence@gmail.com,feat: improve 404 color and font size,1,None,added
+
+173,Theodorus Clarence,theodorusclarence@gmail.com,feat: add ArrowLink component,1,None,added
+
+174,Theodorus Clarence,theodorusclarence@gmail.com,feat: change default theme to light,1,None,added
+
+175,Theodorus Clarence,theodorusclarence@gmail.com,feat: split next/link props type,1,None,added
+
+176,Theodorus Clarence,theodorusclarence@gmail.com,feat: change CustomLink default ring,1,None,added
+
+177,Theodorus Clarence,theodorusclarence@gmail.com,feat: add new button variants,1,None,added
+
+178,Theodorus Clarence,theodorusclarence@gmail.com,chore: change branch prefix to `i`,0.2,None,changed
+
+179,Theodorus Clarence,theodorusclarence@gmail.com,style: run prettier with variant prefix,1,None,added
+
+180,Theodorus Clarence,theodorusclarence@gmail.com,chore: add prettier class prefix variant,0.7,None,added
+
+181,Theodorus Clarence,theodorusclarence@gmail.com,chore: prettier ignore CHANGELOG.md,0.2,None,changed
+
+182,Theodorus Clarence,theodorusclarence@gmail.com,ci: fix issue-autolink prefix,1,None,fixed
+
+183,Theodorus Clarence,theodorusclarence@gmail.com,ci: fix indentation on create-branch.yml,0.7,None,fixed
+
+184,Theodorus Clarence,theodorusclarence@gmail.com,style: run prettier format,1,None,added
+
+185,Theodorus Clarence,theodorusclarence@gmail.com,chore: add tailwind css prettier sorter,0.7,None,added
+
+186,Theodorus Clarence,theodorusclarence@gmail.com,ci: add create-branch actions,1,None,added
+
+187,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-11-28),0.2,None,changed
+
+188,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-11-21),0.2,None,changed
+
+189,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,ci: add issue autolink,1,None,added
+
+190,Theodorus Clarence,theodorusclarence@gmail.com,chore: add jest-dom,0.2,None,added
+
+191,Theodorus Clarence,theodorusclarence@gmail.com,ci: add `format:check` to lint,0.7,None,added
+
+192,Theodorus Clarence,theodorusclarence@gmail.com,test: add helper,1,None,added
+
+193,Theodorus Clarence,theodorusclarence@gmail.com,chore: add jest and rtl,0.2,None,added
+
+194,Theodorus Clarence,theodorusclarence@gmail.com,ci: set lint to run on push,1,None,changed
+
+195,Theodorus Clarence,theodorusclarence@gmail.com,docs: add new starterconf guide,1,None,added
+
+196,Theodorus Clarence,theodorusclarence@gmail.com,feat: add STARTERCONF guide,1,None,added
+
+197,Theodorus Clarence,theodorusclarence@gmail.com,feat: add customizable color,1,None,added
+
+198,Theodorus Clarence,theodorusclarence@gmail.com,feat: remove extra space on Seo,1,None,added
+
+199,Theodorus Clarence,theodorusclarence@gmail.com,feat: add region css snippet,1,None,added
+
+200,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-11-07),0.2,None,changed
+
+201,Theodorus Clarence,theodorusclarence@gmail.com,chore(package): move tailwindcss deps to dev,0.7,None,added
+
+202,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-10-31),0.2,None,changed
+
+203,Theodorus Clarence,theodorusclarence@gmail.com,chore: add additional next@12 settings,0.7,None,added
+
+204,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update next to version 12.0.1,0.7,None,changed
+
+205,Theodorus Clarence,theodorusclarence@gmail.com,fix: using custom title Seo not working,1,None,fixed
+
+206,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,fix: custom Seo props not implemented,1,None,fixed
+
+207,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-10-24),0.2,None,changed
+
+208,Raynaldo Sutisna,raaynaldo@gmail.com,docs: add next link and next image snippet,1,None,added
+
+209,Raynaldo Sutisna,raaynaldo@gmail.com,feat: create next link snippet,1,None,added
+
+210,Theodorus Clarence,theodorusclarence@gmail.com,style: change import path to absolute,1,None,changed
+
+211,Theodorus Clarence,theodorusclarence@gmail.com,feat: update snippets with Layout,1,None,added
+
+212,Theodorus Clarence,theodorusclarence@gmail.com,feat: add Layout and Header,1,None,added
+
+213,Theodorus Clarence,theodorusclarence@gmail.com,feat: add NextImage,1,None,added
+
+214,Theodorus Clarence,theodorusclarence@gmail.com,docs: add og on readme,0.7,None,added
+
+215,Theodorus Clarence,theodorusclarence@gmail.com,"ci: add tsc, lint, and prettier check",1,None,added
+
+216,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-10-17),0.2,None,changed
+
+217,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add deps update notice,1,None,added
+
+218,Theodorus Clarence,theodorusclarence@gmail.com,feat: add open graph with templateTitle,1,None,added
+
+219,Theodorus Clarence,theodorusclarence@gmail.com,feat: use og generator,1,None,added
+
+220,Theodorus Clarence,theodorusclarence@gmail.com,feat: change cursor to pointer,1,None,added
+
+221,Theodorus Clarence,theodorusclarence@gmail.com,feat: add new-tab cursor,1,None,added
+
+222,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add new component video,1,None,added
+
+223,Theodorus Clarence,theodorusclarence@gmail.com,fix: change copywrite in components page,1,None,fixed
+
+224,Theodorus Clarence,theodorusclarence@gmail.com,feat: change seo to each page title,1,None,added
+
+225,Theodorus Clarence,theodorusclarence@gmail.com,feat: add color randomizer to components,1,None,added
+
+226,Theodorus Clarence,theodorusclarence@gmail.com,feat: add primary variant and isLoading,1,None,added
+
+227,Theodorus Clarence,theodorusclarence@gmail.com,feat: add cutomizable css variable for primary,1,None,added
+
+228,Theodorus Clarence,theodorusclarence@gmail.com,feat: improve CustomLink visibility on light mode,1,None,added
+
+229,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-10-11),0.2,None,changed
+
+230,Theodorus Clarence,theodorusclarence@gmail.com,feat: change og to vercel,1,None,added
+
+231,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-10-04),0.2,None,changed
+
+232,Theodorus Clarence,theodorusclarence@gmail.com,feat: add dynamic og from defaultMeta,1,None,added
+
+233,Theodorus Clarence,theodorusclarence@gmail.com,feat: change base url,1,None,added
+
+234,Theodorus Clarence,theodorusclarence@gmail.com,feat: add nextjs snippets,1,None,added
+
+235,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add better comments extension,1,None,added
+
+236,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add usage guide,1,None,added
+
+237,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-09-27),0.2,None,changed
+
+238,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-09-20),0.2,None,changed
+
+239,Theodorus Clarence,theodorusclarence@gmail.com,ci(eslint): change file type to js,1,None,changed
+
+240,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-09-13),0.2,None,changed
+
+241,Theodorus Clarence,theodorusclarence@gmail.com,style: sort import order,1,None,added
+
+242,Theodorus Clarence,theodorusclarence@gmail.com,ci(eslint): add import order and prettier config,1,None,added
+
+243,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add component demo link,1,None,added
+
+244,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-09-06),0.2,None,changed
+
+245,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add sonarcloud badge,1,None,added
+
+246,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update next to version 11.1.2,0.7,None,changed
+
+247,Theodorus Clarence,theodorusclarence@gmail.com,feat: map favicons link in Seo,1,None,added
+
+248,Theodorus Clarence,theodorusclarence@gmail.com,feat: change focus styling for links and buttons,1,None,added
+
+249,Theodorus Clarence,theodorusclarence@gmail.com,chore(package): add @typescript-eslint/parser,0.7,None,added
+
+250,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-08-30),0.2,None,changed
+
+251,Theodorus Clarence,theodorusclarence@gmail.com,style: run prettier,1,None,added
+
+252,Theodorus Clarence,theodorusclarence@gmail.com,chore: add standard-version,0.7,None,added
+
+253,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-08-26),0.2,None,changed
+
+254,Theodorus Clarence,theodorusclarence@gmail.com,chore: resolve conflict,0.7,None,changed
+
+255,Theodorus Clarence,theodorusclarence@gmail.com,feat: move components and add components page,1,None,added
+
+256,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add depfu to readme,1,None,added
+
+257,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-08-13),0.2,None,changed
+
+258,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update next to version 11.1.0,0.7,None,changed
+
+259,Theodorus Clarence,theodorusclarence@gmail.com,docs: add banner to readme,1,None,added
+
+260,Theodorus Clarence,theodorusclarence@gmail.com,feat: add next-sitemap,1,None,added
+
+261,Theodorus Clarence,theodorusclarence@gmail.com,style: remove unused fragment,1,None,removed
+
+262,Theodorus Clarence,theodorusclarence@gmail.com,docs: add codefactor badge,1,None,added
+
+263,Theodorus Clarence,theodorusclarence@gmail.com,feat: use eslint for linting,1,None,added
+
+264,Theodorus Clarence,theodorusclarence@gmail.com,feat: change React.Child to ReactNode,1,None,added
+
+265,Theodorus Clarence,theodorusclarence@gmail.com,refactor: remove unnecessary init,1,None,changed
+
+266,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add absolute import tor README,1,None,added
+
+267,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: add features to README,1,None,added
+
+268,Theodorus Clarence,theodorusclarence@gmail.com,feat: add extensions recommendations,1,None,added
+
+269,Theodorus Clarence,theodorusclarence@gmail.com,feat!: change directory structure,1,None,added
+
+270,Theodorus Clarence,theodorusclarence@gmail.com,ci: move yarn lint to precommit,1,None,changed
+
+271,Theodorus Clarence,theodorusclarence@gmail.com,feat: add react import to pages,1,None,added
+
+272,Theodorus Clarence,theodorusclarence@gmail.com,feat: add workspace snippet,1,None,added
+
+273,Theodorus Clarence,theodorusclarence@gmail.com,ci: add yarn lint to lint-staged,1,None,added
+
+274,Theodorus Clarence,theodorusclarence@gmail.com,feat: add api example,1,None,added
+
+275,Theodorus Clarence,theodorusclarence@gmail.com,feat: add eslint typescript,1,None,added
+
+276,Theodorus Clarence,theodorusclarence@gmail.com,feat: add type to tailwind.config,1,None,added
+
+277,Theodorus Clarence,theodorusclarence@gmail.com,"feat: add 404 page, and make home center",1,None,added
+
+278,Theodorus Clarence,theodorusclarence@gmail.com,"ci: remove override, and add semi",1,None,added
+
+279,Theodorus Clarence,theodorusclarence@gmail.com,feat: change to strict mode,1,None,added
+
+280,Theodorus Clarence,theodorusclarence@gmail.com,feat: add default styles for Button,1,None,added
+
+281,Theodorus Clarence,theodorusclarence@gmail.com,chore: add react-icons,0.7,None,added
+
+282,Theodorus Clarence,theodorusclarence@gmail.com,feat!: use typescript,1,None,added
+
+283,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,docs: change readme to ts,1,None,changed
+
+284,Theodorus Clarence,theodorusclarence@gmail.com,feat: configure meta in Seo,1,None,added
+
+285,Theodorus Clarence,theodorusclarence@gmail.com,chore: use clsx for classname,0.7,None,changed
+
+286,Theodorus Clarence,theodorusclarence@gmail.com,chore(package): update husky to 7.0.1,0.7,None,changed
+
+287,Theodorus Clarence,theodorusclarence@gmail.com,chore(package): update commitlint to 13,0.7,None,changed
+
+288,Theodorus Clarence,theodorusclarence@gmail.com,ci: remove BREAKING CHANGE type,1,None,changed
+
+289,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update all Yarn dependencies (2021-08-07),0.2,None,changed
+
+290,Theodorus Clarence,theodorusclarence@gmail.com,fix: wrong logic for isNewTab,1,None,fixed
+
+291,Theodorus Clarence,theodorusclarence@gmail.com,chore: add @tailwindcss/forms,0.2,None,added
+
+292,Theodorus Clarence,theodorusclarence@gmail.com,feat: add override new tab to UnstyledLink,1,None,added
+
+293,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update lint-staged to version 11.1.0,0.7,None,changed
+
+294,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update tailwindcss to version 2.2.6,0.7,None,changed
+
+295,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update postcss to version 8.3.6,0.7,None,changed
+
+296,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update eslint to version 7.31.0,0.7,None,changed
+
+297,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update autoprefixer to version 10.3.1,0.7,None,changed
+
+298,depfu[bot],23717796+depfu[bot]@users.noreply.github.com,chore(package): update lint-staged to version 11.0.1,0.7,None,changed
+
+299,Theodorus Clarence,theodorusclarence@gmail.com,feat: add revert type on commitlint,1,None,added
+
+300,Theodorus Clarence,theodorusclarence@gmail.com,feat: add env for eslint,1,None,added
+
+301,Theodorus Clarence,theodorusclarence@gmail.com,feat: add Button component,1,None,added
+
+302,Theodorus Clarence,theodorusclarence@gmail.com,feat: add cursor-ne-resize to external link,1,None,added
+
+303,Theodorus Clarence,theodorusclarence@gmail.com,feat: add classnames helper,1,None,added
+
+304,Theodorus Clarence,theodorusclarence@gmail.com,fix: spreading rest mess up autoimport,1,None,fixed
+
+305,Theodorus Clarence,theodorusclarence@gmail.com,ci: add eslint,1,None,added
+
+306,Theodorus Clarence,theodorusclarence@gmail.com,"chore: upgrade to autoprefixer@10.2.6, next@11.0.1, postcss@8.3.5, prettier@2.3.2, tailwindcss@2.2.4",0.2,None,changed
+
+307,Theodorus Clarence,theodorusclarence@gmail.com,chore: upgrade tailwindcss from 2.1 to 2.2,0.2,None,changed
+
+308,Theodorus Clarence,theodorusclarence@gmail.com,chore: upgrade next from 10 to 11,0.2,None,changed
+
+309,Theodorus Clarence,theodorusclarence@gmail.com,chore: upgrade react from 17.0.1 to 17.0.02,0.2,None,changed
+
+310,Theodorus Clarence,theodorusclarence@gmail.com,feat: simpler absolute import config,1,None,added
+
+311,Theodorus Clarence,theodorusclarence@gmail.com,feat: move name to footer,1,None,added
+
+312,Theodorus Clarence,theodorusclarence@gmail.com,feat: change dark color to #222,1,None,added
+
+313,Theodorus Clarence,theodorusclarence@gmail.com,feat: add animated underline,1,None,added
+
+314,Theodorus Clarence,theodorusclarence@gmail.com,fix: href not passed to UnstyledLink a tag,0.7,None,fixed
+
+315,Theodorus Clarence,theodorusclarence@gmail.com,refactor: spread rest to UnstyledLink and CustomLink,0.7,None,changed
+
+316,Theodorus Clarence,theodorusclarence@gmail.com,ci: add post-merge to run yarn,0.7,None,added
+
+317,Theodorus Clarence,theodorusclarence@gmail.com,ci: remove eslint from lint-staged,1,None,changed
+
+318,Theodorus Clarence,theodorusclarence@gmail.com,ci: add prettier to husky pre-commit,1,None,added
+
+319,Theodorus Clarence,theodorusclarence@gmail.com,chore: install lint-staged and prettier,0.7,None,changed
+
+320,Theodorus Clarence,theodorusclarence@gmail.com,ci: add commit message checking using commitlint,1,None,added
+
+321,Theodorus Clarence,theodorusclarence@gmail.com,chore: install husky and commitlint,0.7,None,changed
+
+322,Theodorus Clarence,theodorusclarence@gmail.com,feat: preload and cache font,1,None,added
+
+323,Theodorus Clarence,theodorusclarence@gmail.com,feat: change to variable fonts latin,1,None,added
+
+324,Theodorus Clarence,theodorusclarence@gmail.com,docs: change next-seo to seo component,1,None,changed
+
+325,Theodorus Clarence,theodorusclarence@gmail.com,chore: remove next-seo from the dependencies,0.7,None,changed
+
+326,Theodorus Clarence,theodorusclarence@gmail.com,feat: change seo from `next-seo` to native,1,None,added
+
+327,Theodorus Clarence,theodorusclarence@gmail.com,fix: className props overriding on CustomLink,1,None,fixed
+
+328,Theodorus Clarence,theodorusclarence@gmail.com,docs: fix typo,1,None,fixed
+
+329,Theodorus Clarence,theodorusclarence@gmail.com,docs: add what's inside and deployment link,1,None,added
+
+330,Theodorus Clarence,theodorusclarence@gmail.com,fix: remove local in @fontface to avoid warnings,1,None,fixed
+
+331,Theodorus Clarence,theodorusclarence@gmail.com,"feat: add jit mode, and indicator in index page",1,None,added
+
+332,Theodorus Clarence,theodorusclarence@gmail.com,feat: upgrade to next@10.1 tailwindcss@2.1,1,None,added
+
+333,Theodorus Clarence,theodorusclarence@gmail.com,"changed spaces from 4 to 2,  added favicon",0.7,None,changed
+
+334,Theodorus Clarence,theodorusclarence@gmail.com,added unstyledlink and added layer to globals.css,1,None,added
+
+335,Theodorus Clarence,theodorusclarence@gmail.com,"self-host font, add jsconfig, and revamp some css",1,None,added
+
+336,Theodorus Clarence,theodorusclarence@gmail.com,added absolute import,1,None,added
+
+337,Theodorus Clarence,Clarence@Clarences-MacBook-Air.local,merged with unpulled files,0.7,None,added
+
+338,Theodorus Clarence,55318172+theodorusclarence@users.noreply.github.com,Update README.md,1,None,changed
+
+339,Theodorus Clarence,Clarence@Clarences-MacBook-Air.local,updated README to custom intro,1,None,added
+
+340,Theodorus Clarence,Clarence@Clarences-MacBook-Air.local,finished adding tailwind and some example elements,1,None,added
+
+341,Theodorus Clarence,Clarence@Clarences-MacBook-Air.local,Initial commit from Create Next App,0.7,None,changed
