@@ -29,6 +29,7 @@ def crawl_commits(repo_owner, repo_name):
         page += 1
     return all_commits
 
+
 def calculate_important_score(text):
     # Parse the text with Spacy
     doc = nlp(text)
@@ -51,7 +52,6 @@ def classify(text):
     changed = ["changed", "change", "refactor","update", "breaking", "upgrade"]
     removed = ["removed", "delete", "remove:", "removed", "unused", "duplicate"]
     security = ["security", "authentication", "authenticate", "password"]
-    # join them for checking
     types = [security, removed, fixed, added, changed]
 
     doc = nlp(text)
@@ -101,8 +101,8 @@ def expand_dataset(commits, file):
 
             # Find important ratio, default by 1
             # If we check that commit is from bot, decrease 0.3
-            # Using spacy to tokenize a commit message then check it's importance by
-            # calculate key words
+            # Using spacy to tokenize a commit message then check its importance by
+            # calculate keywords
             is_important = 1
             is_bot = False
             for bot_name in bot_names_pattern:
