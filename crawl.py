@@ -2,10 +2,10 @@ import requests
 import csv
 import re
 import spacy
-from pattern import bot_message_patterns, bot_names_pattern, bot_emails_pattern, ex_pattern
+from pattern import bot_message_patterns, bot_names_pattern, bot_emails_pattern, ex_pattern, added_pattern, fixed_pattern, removed_pattern
 
 nlp = spacy.load('en_core_web_sm')
-github_token = "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"
+github_token = "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"
 headers = {
     'Authorization': f'token {github_token}',
     'Accept': 'application/vnd.github.v3+json'
@@ -29,7 +29,6 @@ def crawl_commits(repo_owner, repo_name):
         page += 1
     return all_commits
 
-
 def calculate_important_score(text):
     # Parse the text with Spacy
     doc = nlp(text)
@@ -50,18 +49,30 @@ def classify(text):
     added = ["added", "feat", "add", "feated", "feature", "feat:", "new"]
     fixed = ["fixed", "fix", "fix:", "bug", "improve", "optimize", "broken"]
     changed = ["changed", "change", "refactor","update", "breaking", "upgrade"]
-    removed = ["remove", "delete", "remove:", "removed", "unused", "duplicate"]
+    removed = ["removed", "delete", "remove:", "removed", "unused", "duplicate"]
     security = ["security", "authentication", "authenticate", "password"]
     # join them for checking
     types = [security, removed, fixed, added, changed]
 
     doc = nlp(text)
-    for token in doc:
-        for type in types:
-            if str(token).lower() in type:
-                return type[0]
+    for fix_ in fixed_pattern:
+        if fix_.search(str(doc[0])):
+            return "fixed"
 
-    # suppose that we haven't figure out type of commit, consider it is changed or added
+    for add_ in added_pattern:
+        if add_.search(str(doc[0])):
+            return "added"
+
+    for remove_ in removed_pattern:
+        if remove_.search(str(doc[0])):
+            return "removed"
+
+    for token in doc:
+        for type_ in types:
+            if str(token).lower() in type_:
+                return type_[0]
+
+    # suppose that we haven't figured out type of commit, consider it is changed or added
     if doc[0].pos_ in ["NOUN", "VERB"]:
         return "added"
     else:
