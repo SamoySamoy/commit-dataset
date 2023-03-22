@@ -76,11 +76,10 @@ def expand_dataset(commits, file):
     # find the current id (number of rows)
     with open(file, mode="r", newline="") as csv_file:
         reader = csv.reader(csv_file)
-        for count, line in enumerate(reader):
-            pass
+        count = sum(1 for line in reader)
 
     # add new data to dataset
-    with open(file, mode="a", encoding="utf-8", newline="") as csv_file:
+    with open(file, mode="a", encoding="utf8", newline="") as csv_file:
         writer = csv.writer(csv_file)
         index = count
         for commit in commits:
