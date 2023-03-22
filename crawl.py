@@ -3,6 +3,7 @@ import csv
 import spacy
 from pattern import bot_message_patterns, bot_names_pattern, bot_emails_pattern, ex_pattern
 
+
 nlp = spacy.load('en_core_web_lg')
 github_token = "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"
 headers = {
@@ -77,6 +78,7 @@ def expand_dataset(commits, file):
         reader = csv.reader(csv_file)
         for count, line in enumerate(reader):
             pass
+
     # add new data to dataset
     with open(file, mode="a", encoding="utf-8", newline="") as csv_file:
         writer = csv.writer(csv_file)
@@ -91,7 +93,6 @@ def expand_dataset(commits, file):
             _type = classify(message)
             # Find important ratio, default by 1. If we check that commit is from bot, decrease important ratio 0.3
             # Using spacy to tokenize a commit message then check if it is important by calculating keywords
-
             is_important = 1
             is_bot = False
             for bot_name in bot_names_pattern:
@@ -108,11 +109,9 @@ def expand_dataset(commits, file):
                     break
             if is_bot:
                 is_important -= 0.3
-
             if calculate_important_score(message) is False:
                 is_important = is_important - 0.3 if not is_bot else is_important - 0.5
             if type == "added":
-
                 print(message)
             new_row = [index, sha, author_name, author_email, message, round(is_important, 1), summa, _type]
             writer.writerow([])

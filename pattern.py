@@ -42,3 +42,4 @@ removed_pattern = [re.compile(r"remove", re.IGNORECASE),
 security_pattern = [re.compile(r"auth", re.IGNORECASE),
                     re.compile(r"security", re.IGNORECASE),
                     re.compile(r"password", re.IGNORECASE)]
+
