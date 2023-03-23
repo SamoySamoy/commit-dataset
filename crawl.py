@@ -5,7 +5,7 @@ import spacy
 from pattern import bot_message_patterns, bot_names_pattern, bot_emails_pattern, ex_pattern, added_pattern, fixed_pattern, removed_pattern
 
 nlp = spacy.load('en_core_web_sm')
-github_token = "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"
+github_token = "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"
 headers = {
     'Authorization': f'token {github_token}',
     'Accept': 'application/vnd.github.v3+json'
@@ -80,12 +80,7 @@ def classify(text):
 
 
 
-def expand_dataset(commits, file):
-    # find the current id (number of rows)
-    with open(file, mode="r", newline="") as csv_file:
-        reader = csv.reader(csv_file)
-        cur_id = (sum(1 for row in reader) - 1) // 2
-
+def expand_dataset(commits, file, cur_id):
     # add new data to dataset
     with open(file, mode="a", encoding='utf8', newline="") as csv_file:
         writer = csv.writer(csv_file)
@@ -95,7 +90,7 @@ def expand_dataset(commits, file):
             sha = commit[0]
             author_name = commit[1]
             author_email = commit[2]
-            message = commit[3]
+            message = '"' + commit[3] + '"'
             summa = "None"
             _type = classify(message)
 
@@ -129,6 +124,11 @@ def expand_dataset(commits, file):
             new_row = [id, author_name, author_email, message, round(is_important,1), summa, _type]
             writer.writerow([])
             writer.writerow(new_row)
+
+        with open('index.txt', 'w', ) as output_file:
+            output_file.write(str(id))
+
+
 
 
 
