@@ -5,7 +5,7 @@ import spacy
 from pattern import bot_message_patterns, bot_names_pattern, bot_emails_pattern, ex_pattern, added_pattern, fixed_pattern, removed_pattern
 
 nlp = spacy.load('en_core_web_sm')
-github_token = "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"
+github_token = "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"
 headers = {
     'Authorization': f'token {github_token}',
     'Accept': 'application/vnd.github.v3+json'
@@ -113,20 +113,15 @@ def expand_dataset(commits, file, cur_id):
                     is_bot = True
                     break
 
-            if is_bot:
-                is_important -= 0.3
-
-            if calculate_important_score(message) == False:
-                if is_bot == False:
-                    is_important -= 0.3
-                else:
-                    is_important -= 0.5
-            new_row = [id, author_name, author_email, message, round(is_important,1), summa, _type]
+            if is_bot or calculate_important_score(message) == False:
+                is_important = 0
+            new_row = [id, message, is_important, _type]
             writer.writerow([])
             writer.writerow(new_row)
 
         with open('index.txt', 'w', ) as output_file:
             output_file.write(str(id))
+
 
 
 
